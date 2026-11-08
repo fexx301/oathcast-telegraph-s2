@@ -1,0 +1,70 @@
+{
+ "F1": {
+  "pick_longer": 0.5,
+  "V": 60,
+  "N": 60,
+  "V_share": 0.5
+ },
+ "F2": {
+  "pick_longer": 0.392,
+  "V": 12,
+  "N": 12,
+  "V_share": 0.5
+ },
+ "F3": {
+  "pick_longer": 0.5,
+  "V": 13,
+  "N": 13,
+  "V_share": 0.5
+ },
+ "F4": {
+  "pick_longer": 0.5,
+  "V": 60,
+  "N": 60,
+  "V_share": 0.5
+ },
+ "F5": {
+  "pick_longer": 0.508,
+  "V": 60,
+  "N": 60,
+  "V_share": 0.5
+ },
+ "F6": {
+  "pick_longer": 0.342,
+  "V": 60,
+  "N": 60,
+  "V_share": 0.5
+ },
+ "F7": {
+  "pick_longer": 0.5,
+  "V": 60,
+  "N": 60,
+  "V_share": 0.5
+ },
+ "F10": {
+  "pick_longer": 0.5,
+  "V": 20,
+  "N": 20,
+  "V_share": 0.5
+ },
+ "F8": {
+  "pick_longer": 0.425,
+  "V": 18,
+  "N": 17,
+  "V_share": 0.514
+ },
+ "F9": {
+  "pick_longer": 0.5,
+  "V": 20,
+  "N": 20,
+  "V_share": 0.5
+ },
+ "train_V_share": 0.5,
+ "train_chosen_verified": "420/840",
+ "test_chosen_verified": "58/120",
+ "test_pick_verified_baseline": 0.504,
+ "fails": [],
+ "dropped_sites": {
+  "YUM": "no rows"
+ }
+}

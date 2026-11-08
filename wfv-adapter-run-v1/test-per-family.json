@@ -1,0 +1,552 @@
+{
+ "per_family": {
+  "ALL": "39/60 (65.0%)",
+  "F4": "19/20 (95.0%)",
+  "F6": "5/20 (25.0%)",
+  "F7": "15/20 (75.0%)",
+  "chosen_verified=False": "14/30 (46.7%)",
+  "chosen_verified=True": "25/30 (83.3%)"
+ },
+ "rows": [
+  {
+   "family": "F4",
+   "site": "ANC",
+   "date": "2026-09-04",
+   "var": "TMIN",
+   "chosen": 1.3334197998046875,
+   "rejected": 1.2039400339126587,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "ANC",
+   "date": "2026-07-05",
+   "var": "TMAX",
+   "chosen": 1.0900471210479736,
+   "rejected": 1.2303760051727295,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F7",
+   "site": "HNL",
+   "date": "2026-09-02",
+   "var": "TMAX",
+   "chosen": 1.3148210048675537,
+   "rejected": 1.246756911277771,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F4",
+   "site": "HNL",
+   "date": "2026-08-27",
+   "var": "TMAX",
+   "chosen": 1.2756489515304565,
+   "rejected": 1.266026496887207,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "BIS",
+   "date": "2026-08-24",
+   "var": "TMIN",
+   "chosen": 1.3818773031234741,
+   "rejected": 1.3951218128204346,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F7",
+   "site": "BIS",
+   "date": "2026-08-26",
+   "var": "TMIN",
+   "chosen": 0.7141932845115662,
+   "rejected": 0.8039298057556152,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F4",
+   "site": "BUF",
+   "date": "2026-09-06",
+   "var": "PRCP",
+   "chosen": 1.2652887105941772,
+   "rejected": 1.1011015176773071,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "ANC",
+   "date": "2026-07-08",
+   "var": "TMAX",
+   "chosen": 1.1279699802398682,
+   "rejected": 1.2385740280151367,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F7",
+   "site": "BUF",
+   "date": "2026-07-28",
+   "var": "TMIN",
+   "chosen": 1.3729815483093262,
+   "rejected": 1.3064380884170532,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F4",
+   "site": "ANC",
+   "date": "2026-07-10",
+   "var": "PRCP",
+   "chosen": 0.9304285049438477,
+   "rejected": 0.9735445380210876,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F6",
+   "site": "ANC",
+   "date": "2026-08-18",
+   "var": "TMAX",
+   "chosen": 1.1606817245483398,
+   "rejected": 1.1617145538330078,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F7",
+   "site": "HNL",
+   "date": "2026-09-14",
+   "var": "PRCP",
+   "chosen": 1.3014800548553467,
+   "rejected": 1.3804658651351929,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F4",
+   "site": "BUF",
+   "date": "2026-08-17",
+   "var": "TMAX",
+   "chosen": 1.3547241687774658,
+   "rejected": 1.2868719100952148,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "BIS",
+   "date": "2026-09-30",
+   "var": "TMAX",
+   "chosen": 1.2610594034194946,
+   "rejected": 1.3552451133728027,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F7",
+   "site": "BUF",
+   "date": "2026-09-23",
+   "var": "PRCP",
+   "chosen": 1.1176838874816895,
+   "rejected": 0.9790493249893188,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F4",
+   "site": "BUF",
+   "date": "2026-07-18",
+   "var": "TMAX",
+   "chosen": 1.3443987369537354,
+   "rejected": 1.3131325244903564,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "BIS",
+   "date": "2026-09-12",
+   "var": "TMIN",
+   "chosen": 1.1396775245666504,
+   "rejected": 1.1360459327697754,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F7",
+   "site": "ANC",
+   "date": "2026-08-10",
+   "var": "TMAX",
+   "chosen": 0.8808997273445129,
+   "rejected": 0.8455725908279419,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F4",
+   "site": "BUF",
+   "date": "2026-07-22",
+   "var": "TMIN",
+   "chosen": 1.0559237003326416,
+   "rejected": 1.003719687461853,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "HNL",
+   "date": "2026-09-13",
+   "var": "PRCP",
+   "chosen": 1.4073058366775513,
+   "rejected": 1.4362680912017822,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F7",
+   "site": "HNL",
+   "date": "2026-09-23",
+   "var": "TMAX",
+   "chosen": 1.4229207038879395,
+   "rejected": 1.3144159317016602,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F4",
+   "site": "ANC",
+   "date": "2026-09-28",
+   "var": "PRCP",
+   "chosen": 1.2633286714553833,
+   "rejected": 1.2604788541793823,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "ANC",
+   "date": "2026-07-01",
+   "var": "PRCP",
+   "chosen": 1.3212275505065918,
+   "rejected": 1.297851800918579,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F7",
+   "site": "ANC",
+   "date": "2026-07-31",
+   "var": "PRCP",
+   "chosen": 1.2253402471542358,
+   "rejected": 1.2061192989349365,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F4",
+   "site": "ANC",
+   "date": "2026-09-24",
+   "var": "TMAX",
+   "chosen": 0.9678288698196411,
+   "rejected": 0.8532053828239441,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "ANC",
+   "date": "2026-08-30",
+   "var": "TMAX",
+   "chosen": 1.229461908340454,
+   "rejected": 1.3628778457641602,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F7",
+   "site": "BIS",
+   "date": "2026-09-13",
+   "var": "TMIN",
+   "chosen": 0.9578127861022949,
+   "rejected": 0.8845817446708679,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F4",
+   "site": "BIS",
+   "date": "2026-08-06",
+   "var": "TMIN",
+   "chosen": 0.8469019532203674,
+   "rejected": 0.8341110944747925,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "HNL",
+   "date": "2026-07-17",
+   "var": "TMIN",
+   "chosen": 1.57597017288208,
+   "rejected": 1.539763331413269,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F7",
+   "site": "HNL",
+   "date": "2026-07-01",
+   "var": "PRCP",
+   "chosen": 1.5315719842910767,
+   "rejected": 1.4245429039001465,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F4",
+   "site": "ANC",
+   "date": "2026-08-31",
+   "var": "TMAX",
+   "chosen": 0.9831817150115967,
+   "rejected": 0.8626892566680908,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "BIS",
+   "date": "2026-09-19",
+   "var": "TMIN",
+   "chosen": 1.1960368156433105,
+   "rejected": 1.2876036167144775,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F7",
+   "site": "BIS",
+   "date": "2026-09-17",
+   "var": "PRCP",
+   "chosen": 0.9538218975067139,
+   "rejected": 0.8381387591362,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F4",
+   "site": "BIS",
+   "date": "2026-07-09",
+   "var": "PRCP",
+   "chosen": 0.969078540802002,
+   "rejected": 0.9394668340682983,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "HNL",
+   "date": "2026-07-15",
+   "var": "TMIN",
+   "chosen": 1.3523507118225098,
+   "rejected": 1.408795714378357,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F7",
+   "site": "ANC",
+   "date": "2026-07-28",
+   "var": "TMAX",
+   "chosen": 1.2150628566741943,
+   "rejected": 1.2332990169525146,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F4",
+   "site": "BUF",
+   "date": "2026-07-02",
+   "var": "PRCP",
+   "chosen": 1.430347204208374,
+   "rejected": 1.2975190877914429,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "BIS",
+   "date": "2026-07-18",
+   "var": "TMAX",
+   "chosen": 1.1162853240966797,
+   "rejected": 1.1646149158477783,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F7",
+   "site": "HNL",
+   "date": "2026-07-11",
+   "var": "PRCP",
+   "chosen": 1.4699351787567139,
+   "rejected": 1.3037723302841187,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F4",
+   "site": "BUF",
+   "date": "2026-08-07",
+   "var": "TMIN",
+   "chosen": 1.2480591535568237,
+   "rejected": 1.2112493515014648,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "ANC",
+   "date": "2026-09-07",
+   "var": "TMAX",
+   "chosen": 1.1933393478393555,
+   "rejected": 1.1552139520645142,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F7",
+   "site": "ANC",
+   "date": "2026-08-24",
+   "var": "TMAX",
+   "chosen": 1.180851936340332,
+   "rejected": 1.23072350025177,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F4",
+   "site": "BUF",
+   "date": "2026-09-12",
+   "var": "TMIN",
+   "chosen": 1.329231858253479,
+   "rejected": 1.2697596549987793,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "HNL",
+   "date": "2026-07-25",
+   "var": "TMIN",
+   "chosen": 1.3993357419967651,
+   "rejected": 1.5010409355163574,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F7",
+   "site": "BIS",
+   "date": "2026-09-22",
+   "var": "PRCP",
+   "chosen": 1.013462781906128,
+   "rejected": 0.8807140588760376,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F4",
+   "site": "BUF",
+   "date": "2026-08-03",
+   "var": "TMIN",
+   "chosen": 1.3875164985656738,
+   "rejected": 1.3365459442138672,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "HNL",
+   "date": "2026-08-17",
+   "var": "TMIN",
+   "chosen": 1.3395732641220093,
+   "rejected": 1.3477833271026611,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F7",
+   "site": "BUF",
+   "date": "2026-07-03",
+   "var": "TMIN",
+   "chosen": 1.3994228839874268,
+   "rejected": 1.3767019510269165,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F4",
+   "site": "HNL",
+   "date": "2026-08-25",
+   "var": "TMAX",
+   "chosen": 1.3493990898132324,
+   "rejected": 1.265866994857788,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "HNL",
+   "date": "2026-08-01",
+   "var": "PRCP",
+   "chosen": 1.2935699224472046,
+   "rejected": 1.3840529918670654,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F7",
+   "site": "BUF",
+   "date": "2026-07-29",
+   "var": "TMIN",
+   "chosen": 1.3746678829193115,
+   "rejected": 1.2846390008926392,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F4",
+   "site": "ANC",
+   "date": "2026-08-27",
+   "var": "TMIN",
+   "chosen": 0.8731404542922974,
+   "rejected": 0.835037887096405,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "ANC",
+   "date": "2026-08-04",
+   "var": "TMAX",
+   "chosen": 0.832603931427002,
+   "rejected": 0.8846102952957153,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F7",
+   "site": "HNL",
+   "date": "2026-07-03",
+   "var": "TMIN",
+   "chosen": 0.9664784669876099,
+   "rejected": 0.9926522374153137,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F4",
+   "site": "BIS",
+   "date": "2026-09-18",
+   "var": "TMAX",
+   "chosen": 1.2274892330169678,
+   "rejected": 1.1604338884353638,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "ANC",
+   "date": "2026-07-30",
+   "var": "TMAX",
+   "chosen": 1.1264044046401978,
+   "rejected": 1.2339112758636475,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F7",
+   "site": "BIS",
+   "date": "2026-07-28",
+   "var": "TMAX",
+   "chosen": 1.249370813369751,
+   "rejected": 1.149118185043335,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F4",
+   "site": "BUF",
+   "date": "2026-09-13",
+   "var": "TMIN",
+   "chosen": 1.332597017288208,
+   "rejected": 1.3234708309173584,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F6",
+   "site": "BUF",
+   "date": "2026-09-07",
+   "var": "TMIN",
+   "chosen": 1.1339919567108154,
+   "rejected": 1.108814001083374,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F7",
+   "site": "BUF",
+   "date": "2026-09-04",
+   "var": "TMAX",
+   "chosen": 1.2629603147506714,
+   "rejected": 1.2562583684921265,
+   "prefers_chosen": true
+  }
+ ]
+}

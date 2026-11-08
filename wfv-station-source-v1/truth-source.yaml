@@ -1,0 +1,48 @@
+version: '1'
+kind: miner
+id: 0
+slug: truth-ghcn-station-recorded-weather
+protocol: generic
+name: Recorded station weather (NOAA GHCN-Daily, nearest station)
+description: >-
+  Free, public, no-key API. For a place name and a past date, returns what the nearest NOAA GHCN-Daily weather
+  station (within 50 km) recorded that day: high and low temperature in degrees Celsius and precipitation in mm,
+  read live from NOAA NCEI's daily-summaries service, with the station id, name and distance. Operated by the
+  contributor; no forecast or model data. Answers 404 when no station has a reading for that day.
+base_url: https://wdauaeyvk7mcfzuxewk3mqkhvu0klqwo.lambda-url.eu-north-1.on.aws
+auth:
+  type: none
+endpoints:
+  - path: /verify
+    external_path: /verify
+    method: GET
+    description: >-
+      What the nearest weather station recorded on a past date for a place. USE THIS for WEATHER_FORECAST_VERIFY_GENERAL.
+    intents:
+      - WEATHER_FORECAST_VERIFY_GENERAL
+    params:
+      query:
+        required:
+          - name: location
+            type: string
+            intents: ['*']
+            description: City or place name, optionally with state or country (e.g. "Austin, TX", "Paris, France").
+          - name: date
+            type: string
+            intents: ['*']
+            description: The past date, YYYY-MM-DD.
+intent_mapping:
+  WEATHER_FORECAST_VERIFY_GENERAL:
+    endpoint: /verify
+    input:
+      location: { from: location, how: "Only the city or place name, plus state or country if given." }
+      date: { from: date, how: "The past date as YYYY-MM-DD." }
+    output:
+      location: { path: location }
+      date: { path: date }
+      temp_max_c: { path: temp_max_c }
+      temp_min_c: { path: temp_min_c }
+      precipitation_mm: { path: precipitation_mm }
+semantics:
+  supported_intents:
+    - WEATHER_FORECAST_VERIFY_GENERAL

@@ -1,0 +1,118 @@
+{
+ "rule": "RULE.md (frozen before the run)",
+ "overall": {
+  "n": 100,
+  "covered": 92,
+  "mae": 1.35,
+  "median": 1.3,
+  "within_1": 0.424,
+  "within_2": 0.815,
+  "within_3": 0.935,
+  "bias_mean": -0.75,
+  "mae_min": 1.34,
+  "wet_dry_agree": "67/84"
+ },
+ "by_group": {
+  "us_ca": {
+   "n": 50,
+   "covered": 50,
+   "mae": 1.24,
+   "median": 1.3,
+   "within_1": 0.4,
+   "within_2": 0.86,
+   "within_3": 0.96,
+   "bias_mean": -1.04,
+   "mae_min": 1.34,
+   "wet_dry_agree": "40/46"
+  },
+  "europe": {
+   "n": 30,
+   "covered": 25,
+   "mae": 1.38,
+   "median": 1.2,
+   "within_1": 0.48,
+   "within_2": 0.84,
+   "within_3": 0.92,
+   "bias_mean": -0.4,
+   "mae_min": 1.1,
+   "wet_dry_agree": "19/24"
+  },
+  "other": {
+   "n": 20,
+   "covered": 17,
+   "mae": 1.64,
+   "median": 1.4,
+   "within_1": 0.412,
+   "within_2": 0.647,
+   "within_3": 0.882,
+   "bias_mean": -0.41,
+   "mae_min": 1.68,
+   "wet_dry_agree": "8/14"
+  }
+ },
+ "miner_refusals": [],
+ "station_refusals": 8,
+ "worst5": [
+  {
+   "location": "Lisbon",
+   "date": "2026-09-24",
+   "err_max": 4.8,
+   "station": {
+    "id": "PO000008535",
+    "name": "LISBOA GEOFISICA",
+    "distance_km": 0.9,
+    "lat": 38.7167,
+    "lon": -9.15
+   }
+  },
+  {
+   "location": "Minneapolis",
+   "date": "2026-10-26",
+   "err_max": -4.3,
+   "station": {
+    "id": "USC00214884",
+    "name": "LOWER ST ANTHONY FALLS",
+    "distance_km": 1.3,
+    "lat": 44.9786,
+    "lon": -93.2469
+   }
+  },
+  {
+   "location": "London",
+   "date": "2026-09-24",
+   "err_max": -4.1,
+   "station": {
+    "id": "UKE00107650",
+    "name": "HEATHROW",
+    "distance_km": 22.6,
+    "lat": 51.4789,
+    "lon": -0.4489
+   }
+  },
+  {
+   "location": "Mexico City",
+   "date": "2026-10-05",
+   "err_max": -3.8,
+   "station": {
+    "id": "MXM00076680",
+    "name": "MEXICO CITY",
+    "distance_km": 6.6,
+    "lat": 19.4,
+    "lon": -99.183
+   }
+  },
+  {
+   "location": "Sydney",
+   "date": "2026-09-14",
+   "err_max": 3.7,
+   "station": {
+    "id": "ASN00066196",
+    "name": "SYDNEY HARBOUR (WEDDING CAKE W",
+    "distance_km": 5.9,
+    "lat": -33.8414,
+    "lon": 151.2633
+   }
+  }
+ ],
+ "pass": true
+}

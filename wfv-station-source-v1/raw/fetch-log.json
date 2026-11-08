@@ -1,0 +1,50 @@
+{
+ "cities15000.zip": {
+  "url": "https://download.geonames.org/export/dump/cities15000.zip",
+  "captured_at": "2026-11-03T18:24:51Z",
+  "bytes": 3365785,
+  "last_modified": "Tue, 03 Nov 2026 02:44:17 GMT"
+ },
+ "countryInfo.txt": {
+  "url": "https://download.geonames.org/export/dump/countryInfo.txt",
+  "captured_at": "2026-11-03T18:24:52Z",
+  "bytes": 32112,
+  "last_modified": "Tue, 03 Nov 2026 02:49:45 GMT"
+ },
+ "admin1CodesASCII.txt": {
+  "url": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+  "captured_at": "2026-11-03T18:24:54Z",
+  "bytes": 151571,
+  "last_modified": "Tue, 03 Nov 2026 02:44:17 GMT"
+ },
+ "ghcnd-stations.txt": {
+  "url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/ghcnd-stations.txt",
+  "captured_at": "2026-11-03T18:24:58Z",
+  "bytes": 11441526,
+  "last_modified": "Thu, 29 Oct 2026 04:05:55 GMT"
+ },
+ "ghcnd-inventory.txt": {
+  "url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/ghcnd-inventory.txt",
+  "captured_at": "2026-11-03T18:25:04Z",
+  "bytes": 36400398,
+  "last_modified": "Thu, 29 Oct 2026 04:05:55 GMT"
+ },
+ "GB.zip": {
+  "url": "https://download.geonames.org/export/dump/GB.zip",
+  "captured_at": "2026-11-05T07:31:45Z",
+  "bytes": 3639296,
+  "last_modified": "Thu, 05 Nov 2026 02:46:28 GMT"
+ },
+ "ES.zip": {
+  "url": "https://download.geonames.org/export/dump/ES.zip",
+  "captured_at": "2026-11-05T07:31:47Z",
+  "bytes": 3336235,
+  "last_modified": "Thu, 05 Nov 2026 02:46:01 GMT"
+ },
+ "FR.zip": {
+  "url": "https://download.geonames.org/export/dump/FR.zip",
+  "captured_at": "2026-11-05T07:31:50Z",
+  "bytes": 7307229,
+  "last_modified": "Thu, 05 Nov 2026 02:46:24 GMT"
+ }
+}

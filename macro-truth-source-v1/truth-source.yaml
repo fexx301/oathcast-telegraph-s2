@@ -1,0 +1,53 @@
+version: '1'
+kind: miner
+id: 0
+slug: truth-worldbank-wdi-unemployment
+protocol: generic
+name: World Bank WDI unemployment rate (SL.UEM.TOTL.ZS)
+description: >-
+  Free, public, no-key World Bank Indicators API. Returns the unemployment rate, total (% of total labour force,
+  modeled ILO estimate), World Bank indicator SL.UEM.TOTL.ZS, for one country and one year. Data CC BY 4.0.
+base_url: https://api.worldbank.org
+auth:
+  type: none
+docs:
+  website: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+  documentation: https://datahelpdesk.worldbank.org/knowledgebase/articles/889392
+endpoints:
+  - path: /unemployment
+    external_path: /v2/country/{country}/indicator/SL.UEM.TOTL.ZS
+    method: GET
+    description: >-
+      Unemployment rate (% of total labour force, World Bank SL.UEM.TOTL.ZS) for one country in one year.
+      USE THIS for MACRO_ECONOMIC_INDICATOR_GENERAL. The answer is a JSON array; the value is at [1][0].value.
+    intents:
+      - MACRO_ECONOMIC_INDICATOR_GENERAL
+    params:
+      path:
+        required:
+          - name: country
+            type: string
+            intents: ['*']
+            description: ISO 3166-1 alpha-3 country code, upper case (e.g. DEU, BRA, ZAF).
+      query:
+        required:
+          - name: date
+            type: string
+            intents: ['*']
+            description: The four-digit year, e.g. 2020.
+          - name: format
+            type: string
+            intents: ['*']
+            description: Always json.
+intent_mapping:
+  MACRO_ECONOMIC_INDICATOR_GENERAL:
+    endpoint: /unemployment
+    input:
+      country: { from: country, how: "ISO 3166-1 alpha-3 code, upper case (Germany -> DEU, United States -> USA)." }
+      date: { from: year }
+      format: { from: const, value: json }
+    output:
+      rate_pct: { path: "1.0.value" }
+semantics:
+  supported_intents:
+    - MACRO_ECONOMIC_INDICATOR_GENERAL

@@ -1,0 +1,157 @@
+{
+ "threshold": 0.84,
+ "calibration": {
+  "matched": 159,
+  "right_person": 135,
+  "pos": 211,
+  "fp": 2,
+  "neg": 38
+ },
+ "test": {
+  "matched": 140,
+  "right_person": 112,
+  "pos": 189,
+  "fp": 3,
+  "neg": 40
+ },
+ "grid_test": {
+  "0.8": {
+   "matched": 153,
+   "right_person": 124,
+   "pos": 189,
+   "fp": 5,
+   "neg": 40
+  },
+  "0.81": {
+   "matched": 150,
+   "right_person": 120,
+   "pos": 189,
+   "fp": 5,
+   "neg": 40
+  },
+  "0.82": {
+   "matched": 146,
+   "right_person": 119,
+   "pos": 189,
+   "fp": 4,
+   "neg": 40
+  },
+  "0.83": {
+   "matched": 143,
+   "right_person": 115,
+   "pos": 189,
+   "fp": 4,
+   "neg": 40
+  },
+  "0.84": {
+   "matched": 140,
+   "right_person": 112,
+   "pos": 189,
+   "fp": 3,
+   "neg": 40
+  },
+  "0.85": {
+   "matched": 136,
+   "right_person": 109,
+   "pos": 189,
+   "fp": 3,
+   "neg": 40
+  },
+  "0.86": {
+   "matched": 130,
+   "right_person": 104,
+   "pos": 189,
+   "fp": 2,
+   "neg": 40
+  },
+  "0.87": {
+   "matched": 124,
+   "right_person": 97,
+   "pos": 189,
+   "fp": 2,
+   "neg": 40
+  },
+  "0.88": {
+   "matched": 118,
+   "right_person": 91,
+   "pos": 189,
+   "fp": 1,
+   "neg": 40
+  },
+  "0.89": {
+   "matched": 112,
+   "right_person": 87,
+   "pos": 189,
+   "fp": 1,
+   "neg": 40
+  },
+  "0.9": {
+   "matched": 111,
+   "right_person": 84,
+   "pos": 189,
+   "fp": 1,
+   "neg": 40
+  },
+  "0.91": {
+   "matched": 103,
+   "right_person": 76,
+   "pos": 189,
+   "fp": 0,
+   "neg": 40
+  },
+  "0.92": {
+   "matched": 99,
+   "right_person": 71,
+   "pos": 189,
+   "fp": 0,
+   "neg": 40
+  },
+  "0.93": {
+   "matched": 94,
+   "right_person": 63,
+   "pos": 189,
+   "fp": 0,
+   "neg": 40
+  },
+  "0.94": {
+   "matched": 86,
+   "right_person": 54,
+   "pos": 189,
+   "fp": 0,
+   "neg": 40
+  },
+  "0.95": {
+   "matched": 78,
+   "right_person": 43,
+   "pos": 189,
+   "fp": 0,
+   "neg": 40
+  },
+  "0.96": {
+   "matched": 67,
+   "right_person": 34,
+   "pos": 189,
+   "fp": 0,
+   "neg": 40
+  },
+  "0.97": {
+   "matched": 51,
+   "right_person": 16,
+   "pos": 189,
+   "fp": 0,
+   "neg": 40
+  },
+  "0.98": {
+   "matched": 42,
+   "right_person": 8,
+   "pos": 189,
+   "fp": 0,
+   "neg": 40
+  }
+ },
+ "sanity_listed_exact_and_wallets": {
+  "n": 126,
+  "missed": []
+ },
+ "positive_pool": 6626
+}

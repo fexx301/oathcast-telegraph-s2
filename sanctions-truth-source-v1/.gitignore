@@ -1,0 +1,9 @@
+raw/*
+!raw/fetch-log.json
+__pycache__/
+.vercel
+.env*
+aws/build/
+aws/fn.zip
+aws/rbuild/
+aws/refresh.zip

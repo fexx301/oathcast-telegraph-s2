@@ -1,0 +1,51 @@
+{
+  "intent": "WEATHER_FORECAST_VERIFY_GENERAL",
+  "base_model": "answerdotai/ModernBERT-base",
+  "adapter_dir": "runs/WFV2/adapter",
+  "train_pairs": 714,
+  "gate_split": "test",
+  "dataset_gate": {
+    "ok": true,
+    "n": 840,
+    "metrics": {
+      "unique_rejected_frac": 1.0,
+      "top_rejected_share": 0.0012,
+      "length_shortcut_acc": 0.5083,
+      "eval_negative_leak": 0.0,
+      "surface_probe_acc": 0.5437,
+      "mean_len_chosen": 369.6,
+      "mean_len_rejected": 369.7
+    },
+    "failures": []
+  },
+  "n_eval": 120,
+  "pairwise_accuracy": 0.6083,
+  "val_loss": 0.927744,
+  "length_baseline": 0.5042,
+  "beats_length_baseline": true,
+  "verdict": "FAIL",
+  "negative_memorisation": 0.0,
+  "fail_reason": "accuracy 0.6083 is below --gate-min-acc 0.65",
+  "hyperparameters": {
+    "max_length": 512,
+    "batch_size": 1,
+    "grad_accum": 4,
+    "grad_checkpointing": true,
+    "lora_rank": 8,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1,
+    "epochs": 4,
+    "lr": 0.0001,
+    "weight_decay": 0.01,
+    "eval_split": 0.15,
+    "seed": 42,
+    "eval_batch": 4,
+    "gate_min_acc": 0.65,
+    "gate_min_margin_over_baseline": 0.1,
+    "early_stopping": true,
+    "es_metric": "val_loss",
+    "es_patience": 1,
+    "es_min_delta": 0.001,
+    "loss_floor": 0.0001
+  }
+}

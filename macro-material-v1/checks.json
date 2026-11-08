@@ -1,0 +1,28 @@
+{
+ "rows": 240,
+ "series": {
+  "SL.UEM.TOTL.ZS": 120,
+  "FP.CPI.TOTL.ZG": 60,
+  "NY.GDP.MKTP.KD.ZG": 60
+ },
+ "families": {
+  "M1": 43,
+  "M2": 43,
+  "M3": 44,
+  "M4": 32,
+  "M5": 44,
+  "M6": 34
+ },
+ "pick_longer": 0.458,
+ "vintages": {
+  "SL.UEM.TOTL.ZS": "2026-10-08",
+  "FP.CPI.TOTL.ZG": "2026-10-08",
+  "NY.GDP.MKTP.KD.ZG": "2026-10-08",
+  "SL.UEM.1524.ZS": "2026-10-08",
+  "SL.UEM.TOTL.NE.ZS": "2026-10-08",
+  "NY.GDP.DEFL.KD.ZG": "2026-10-08",
+  "NY.GDP.PCAP.KD.ZG": "2026-10-08"
+ },
+ "countries": 45,
+ "fails": []
+}

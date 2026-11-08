@@ -1,0 +1,98 @@
+{
+ "rows": 300,
+ "V": 80,
+ "N": 79,
+ "V_share": 0.503,
+ "pick_longer": 0.397,
+ "chosen_verified": "212/300",
+ "vars": {
+  "TMAX": 91,
+  "TMIN": 94,
+  "PRCP": 115
+ },
+ "error_0.0_in_rejected": 34,
+ "error_0.0_in_chosen": 59,
+ "fails": [],
+ "skips": {
+  "edge_or_disagree": 452,
+  "dry_cap": 55,
+  "no_option": 89
+ },
+ "dropped_sites": {
+  "LAS": "HARRY REID INTERNATIONAL AIRPORT, NV US"
+ },
+ "families": {
+  "F1": 29,
+  "F2": 45,
+  "F3": 45,
+  "F4": 27,
+  "F5": 26,
+  "F6": 28,
+  "F7": 28,
+  "F8": 29,
+  "F9": 28,
+  "F10": 45
+ },
+ "probe_rows": [
+  {
+   "row": 78,
+   "template": 2,
+   "site": "CLT",
+   "date": "2026-10-16"
+  },
+  {
+   "row": 106,
+   "template": 2,
+   "site": "DFW",
+   "date": "2026-08-03"
+  },
+  {
+   "row": 5,
+   "template": 13,
+   "site": "ANC",
+   "date": "2026-09-02"
+  },
+  {
+   "row": 22,
+   "template": 13,
+   "site": "BIS",
+   "date": "2026-10-18"
+  },
+  {
+   "row": 9,
+   "template": 17,
+   "site": "ATL",
+   "date": "2026-08-08"
+  },
+  {
+   "row": 31,
+   "template": 17,
+   "site": "BNA",
+   "date": "2026-09-11"
+  },
+  {
+   "row": 0,
+   "template": 10,
+   "site": "ANC",
+   "date": "2026-09-10"
+  },
+  {
+   "row": 1,
+   "template": 5,
+   "site": "ANC",
+   "date": "2026-09-01"
+  },
+  {
+   "row": 2,
+   "template": 1,
+   "site": "ANC",
+   "date": "2026-09-19"
+  },
+  {
+   "row": 3,
+   "template": 12,
+   "site": "ANC",
+   "date": "2026-08-06"
+  }
+ ]
+}

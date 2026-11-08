@@ -1,0 +1,1220 @@
+{
+ "per_family": {
+  "ALL": "73/120 (60.8%)",
+  "F10": "30/40 (75.0%)",
+  "F10_kind=N": "13/20 (65.0%)",
+  "F10_kind=V": "17/20 (85.0%)",
+  "F8": "31/40 (77.5%)",
+  "F8_kind==": "5/5 (100.0%)",
+  "F8_kind=N": "15/17 (88.2%)",
+  "F8_kind=V": "11/18 (61.1%)",
+  "F9": "12/40 (30.0%)",
+  "F9_kind=N": "9/20 (45.0%)",
+  "F9_kind=V": "3/20 (15.0%)",
+  "var=PRCP": "33/48 (68.8%)",
+  "var=TMAX": "25/46 (54.3%)",
+  "var=TMIN": "15/26 (57.7%)"
+ },
+ "rows": [
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "OGG",
+   "date": "2026-07-31",
+   "var": "PRCP",
+   "chosen": 32.85431671142578,
+   "rejected": 32.826011657714844,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "CAR",
+   "date": "2026-08-23",
+   "var": "TMAX",
+   "chosen": 31.19563865661621,
+   "rejected": 33.33135986328125,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "OGG",
+   "date": "2026-09-10",
+   "var": "PRCP",
+   "chosen": 32.062339782714844,
+   "rejected": 29.15546417236328,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "CRP",
+   "date": "2026-08-16",
+   "var": "PRCP",
+   "chosen": 35.131019592285156,
+   "rejected": 34.13932800292969,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "CRP",
+   "date": "2026-09-20",
+   "var": "TMIN",
+   "chosen": 33.56985855102539,
+   "rejected": 32.84008026123047,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "FAI",
+   "date": "2026-08-05",
+   "var": "PRCP",
+   "chosen": 27.57775115966797,
+   "rejected": 25.852794647216797,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "CAR",
+   "date": "2026-08-13",
+   "var": "TMIN",
+   "chosen": 36.96161651611328,
+   "rejected": 36.583900451660156,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-07-01",
+   "var": "TMIN",
+   "chosen": 28.291038513183594,
+   "rejected": 30.06622314453125,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-09-19",
+   "var": "TMIN",
+   "chosen": 30.551746368408203,
+   "rejected": 29.81405258178711,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "CRP",
+   "date": "2026-09-25",
+   "var": "TMAX",
+   "chosen": 34.61636734008789,
+   "rejected": 33.9300422668457,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "FAI",
+   "date": "2026-08-22",
+   "var": "TMIN",
+   "chosen": 35.120059967041016,
+   "rejected": 35.69001770019531,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "CAR",
+   "date": "2026-08-02",
+   "var": "TMAX",
+   "chosen": 23.94221305847168,
+   "rejected": 20.561573028564453,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "OGG",
+   "date": "2026-09-03",
+   "var": "PRCP",
+   "chosen": 35.751583099365234,
+   "rejected": 36.154266357421875,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "CRP",
+   "date": "2026-08-04",
+   "var": "PRCP",
+   "chosen": 25.991127014160156,
+   "rejected": 33.35765838623047,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-08-27",
+   "var": "TMIN",
+   "chosen": 34.103702545166016,
+   "rejected": 33.18840789794922,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "CAR",
+   "date": "2026-08-07",
+   "var": "TMAX",
+   "chosen": 21.138565063476562,
+   "rejected": 20.108501434326172,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "CRP",
+   "date": "2026-08-25",
+   "var": "TMIN",
+   "chosen": 34.126564025878906,
+   "rejected": 33.674888610839844,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "CAR",
+   "date": "2026-08-14",
+   "var": "PRCP",
+   "chosen": 34.180320739746094,
+   "rejected": 32.77796173095703,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-07-10",
+   "var": "TMAX",
+   "chosen": 27.33317756652832,
+   "rejected": 31.678936004638672,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-08-11",
+   "var": "TMAX",
+   "chosen": 22.942100524902344,
+   "rejected": 27.196794509887695,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-09-22",
+   "var": "TMIN",
+   "chosen": 28.540565490722656,
+   "rejected": 26.01773452758789,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "CAR",
+   "date": "2026-09-30",
+   "var": "TMIN",
+   "chosen": 25.844711303710938,
+   "rejected": 24.39653968811035,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "CRP",
+   "date": "2026-08-10",
+   "var": "TMAX",
+   "chosen": 22.52121353149414,
+   "rejected": 21.58662986755371,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "OGG",
+   "date": "2026-08-25",
+   "var": "PRCP",
+   "chosen": 29.048397064208984,
+   "rejected": 28.95058250427246,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "CAR",
+   "date": "2026-09-25",
+   "var": "PRCP",
+   "chosen": 24.512033462524414,
+   "rejected": 22.318458557128906,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-09-12",
+   "var": "TMIN",
+   "chosen": 31.3267765045166,
+   "rejected": 32.866050720214844,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-09-30",
+   "var": "PRCP",
+   "chosen": 35.22130584716797,
+   "rejected": 35.55711364746094,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F8",
+   "kind": "=",
+   "site": "CAR",
+   "date": "2026-08-15",
+   "var": "PRCP",
+   "chosen": 34.97161102294922,
+   "rejected": 32.89924621582031,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "CRP",
+   "date": "2026-07-15",
+   "var": "TMIN",
+   "chosen": 29.170652389526367,
+   "rejected": 29.53411865234375,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "FAI",
+   "date": "2026-07-25",
+   "var": "PRCP",
+   "chosen": 32.58207702636719,
+   "rejected": 31.01038360595703,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "MSO",
+   "date": "2026-07-06",
+   "var": "TMAX",
+   "chosen": 29.428024291992188,
+   "rejected": 31.40595817565918,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-07-27",
+   "var": "TMAX",
+   "chosen": 36.61268615722656,
+   "rejected": 36.402950286865234,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "MSO",
+   "date": "2026-09-16",
+   "var": "TMAX",
+   "chosen": 33.40723419189453,
+   "rejected": 33.438377380371094,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "CAR",
+   "date": "2026-08-20",
+   "var": "TMAX",
+   "chosen": 32.286842346191406,
+   "rejected": 31.658584594726562,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "MSO",
+   "date": "2026-08-09",
+   "var": "PRCP",
+   "chosen": 31.432098388671875,
+   "rejected": 30.68770980834961,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "FAI",
+   "date": "2026-07-20",
+   "var": "TMIN",
+   "chosen": 25.589914321899414,
+   "rejected": 30.07602310180664,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "CAR",
+   "date": "2026-08-28",
+   "var": "TMAX",
+   "chosen": 35.4854850769043,
+   "rejected": 35.38098907470703,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "MSO",
+   "date": "2026-08-23",
+   "var": "PRCP",
+   "chosen": 35.32682418823242,
+   "rejected": 35.465965270996094,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "CAR",
+   "date": "2026-09-08",
+   "var": "TMAX",
+   "chosen": 36.094078063964844,
+   "rejected": 35.22068405151367,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "CRP",
+   "date": "2026-08-03",
+   "var": "TMAX",
+   "chosen": 26.950754165649414,
+   "rejected": 26.237009048461914,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "OGG",
+   "date": "2026-08-23",
+   "var": "TMAX",
+   "chosen": 29.20707130432129,
+   "rejected": 30.271827697753906,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "MSO",
+   "date": "2026-09-07",
+   "var": "PRCP",
+   "chosen": 37.26390075683594,
+   "rejected": 35.99421691894531,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "OGG",
+   "date": "2026-09-23",
+   "var": "TMAX",
+   "chosen": 36.65254211425781,
+   "rejected": 36.40263366699219,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "OGG",
+   "date": "2026-07-08",
+   "var": "TMAX",
+   "chosen": 33.33937072753906,
+   "rejected": 34.20289611816406,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "MSO",
+   "date": "2026-09-09",
+   "var": "TMAX",
+   "chosen": 31.334028244018555,
+   "rejected": 32.576988220214844,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "OGG",
+   "date": "2026-07-19",
+   "var": "TMAX",
+   "chosen": 26.756858825683594,
+   "rejected": 26.268226623535156,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "CAR",
+   "date": "2026-07-17",
+   "var": "PRCP",
+   "chosen": 35.51453399658203,
+   "rejected": 34.5933952331543,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "MSO",
+   "date": "2026-09-05",
+   "var": "PRCP",
+   "chosen": 36.03946304321289,
+   "rejected": 33.83253479003906,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "CRP",
+   "date": "2026-07-31",
+   "var": "TMIN",
+   "chosen": 32.46166229248047,
+   "rejected": 32.61021423339844,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "MSO",
+   "date": "2026-08-30",
+   "var": "PRCP",
+   "chosen": 34.10548400878906,
+   "rejected": 34.75318908691406,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "CAR",
+   "date": "2026-09-16",
+   "var": "PRCP",
+   "chosen": 25.21267318725586,
+   "rejected": 22.23882293701172,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "CAR",
+   "date": "2026-08-25",
+   "var": "TMAX",
+   "chosen": 30.49006462097168,
+   "rejected": 30.682937622070312,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "OGG",
+   "date": "2026-09-02",
+   "var": "TMIN",
+   "chosen": 35.55168151855469,
+   "rejected": 35.829490661621094,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "FAI",
+   "date": "2026-08-17",
+   "var": "TMAX",
+   "chosen": 31.183218002319336,
+   "rejected": 28.069297790527344,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "MSO",
+   "date": "2026-07-15",
+   "var": "TMAX",
+   "chosen": 31.661319732666016,
+   "rejected": 31.567224502563477,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-08-02",
+   "var": "PRCP",
+   "chosen": 31.846359252929688,
+   "rejected": 31.1325740814209,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-08-04",
+   "var": "PRCP",
+   "chosen": 24.640146255493164,
+   "rejected": 17.924631118774414,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "=",
+   "site": "CRP",
+   "date": "2026-07-03",
+   "var": "PRCP",
+   "chosen": 33.71435546875,
+   "rejected": 33.478023529052734,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "CRP",
+   "date": "2026-08-18",
+   "var": "TMAX",
+   "chosen": 17.312335968017578,
+   "rejected": 19.489452362060547,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "CAR",
+   "date": "2026-07-14",
+   "var": "PRCP",
+   "chosen": 26.37466812133789,
+   "rejected": 29.033411026000977,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "CRP",
+   "date": "2026-08-24",
+   "var": "TMIN",
+   "chosen": 34.08487319946289,
+   "rejected": 32.9394416809082,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "CAR",
+   "date": "2026-07-12",
+   "var": "PRCP",
+   "chosen": 34.339725494384766,
+   "rejected": 35.26909637451172,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "CAR",
+   "date": "2026-09-23",
+   "var": "TMIN",
+   "chosen": 35.21728515625,
+   "rejected": 35.18880844116211,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "CRP",
+   "date": "2026-07-14",
+   "var": "TMAX",
+   "chosen": 36.10681915283203,
+   "rejected": 36.14756774902344,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "CRP",
+   "date": "2026-09-02",
+   "var": "TMAX",
+   "chosen": 31.066415786743164,
+   "rejected": 31.855480194091797,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "CAR",
+   "date": "2026-09-03",
+   "var": "TMAX",
+   "chosen": 33.48032760620117,
+   "rejected": 30.890840530395508,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "CRP",
+   "date": "2026-08-14",
+   "var": "TMIN",
+   "chosen": 32.76161575317383,
+   "rejected": 32.520225524902344,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "OGG",
+   "date": "2026-09-22",
+   "var": "PRCP",
+   "chosen": 33.593841552734375,
+   "rejected": 34.234291076660156,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-07-07",
+   "var": "TMIN",
+   "chosen": 35.060768127441406,
+   "rejected": 34.58470153808594,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "CAR",
+   "date": "2026-09-02",
+   "var": "PRCP",
+   "chosen": 33.080352783203125,
+   "rejected": 30.499685287475586,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "MSO",
+   "date": "2026-09-10",
+   "var": "TMIN",
+   "chosen": 26.316524505615234,
+   "rejected": 28.381418228149414,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "FAI",
+   "date": "2026-09-18",
+   "var": "PRCP",
+   "chosen": 29.98940086364746,
+   "rejected": 31.119184494018555,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F8",
+   "kind": "=",
+   "site": "FAI",
+   "date": "2026-09-24",
+   "var": "PRCP",
+   "chosen": 17.814697265625,
+   "rejected": 17.344383239746094,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-09-09",
+   "var": "TMIN",
+   "chosen": 26.25429916381836,
+   "rejected": 27.70949935913086,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "CRP",
+   "date": "2026-07-25",
+   "var": "PRCP",
+   "chosen": 35.80457305908203,
+   "rejected": 31.835725784301758,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "CAR",
+   "date": "2026-09-01",
+   "var": "TMAX",
+   "chosen": 30.740591049194336,
+   "rejected": 30.66570472717285,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "OGG",
+   "date": "2026-09-06",
+   "var": "PRCP",
+   "chosen": 30.89415740966797,
+   "rejected": 30.718908309936523,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "MSO",
+   "date": "2026-07-25",
+   "var": "PRCP",
+   "chosen": 27.430774688720703,
+   "rejected": 30.651782989501953,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "OGG",
+   "date": "2026-08-01",
+   "var": "TMAX",
+   "chosen": 25.36855125427246,
+   "rejected": 28.034347534179688,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "OGG",
+   "date": "2026-08-09",
+   "var": "PRCP",
+   "chosen": 36.23664474487305,
+   "rejected": 36.728736877441406,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "CAR",
+   "date": "2026-08-29",
+   "var": "TMAX",
+   "chosen": 36.590850830078125,
+   "rejected": 34.957305908203125,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "CAR",
+   "date": "2026-08-30",
+   "var": "TMIN",
+   "chosen": 33.10790252685547,
+   "rejected": 33.687889099121094,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "OGG",
+   "date": "2026-07-09",
+   "var": "TMAX",
+   "chosen": 33.14976501464844,
+   "rejected": 34.06122589111328,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "MSO",
+   "date": "2026-07-14",
+   "var": "TMAX",
+   "chosen": 31.853904724121094,
+   "rejected": 35.132972717285156,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "MSO",
+   "date": "2026-08-25",
+   "var": "PRCP",
+   "chosen": 32.33275604248047,
+   "rejected": 30.302492141723633,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "MSO",
+   "date": "2026-09-03",
+   "var": "TMAX",
+   "chosen": 32.96466064453125,
+   "rejected": 34.32570266723633,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "CAR",
+   "date": "2026-08-12",
+   "var": "PRCP",
+   "chosen": 24.56265640258789,
+   "rejected": 18.058534622192383,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "FAI",
+   "date": "2026-08-13",
+   "var": "TMAX",
+   "chosen": 27.711265563964844,
+   "rejected": 24.70638656616211,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "OGG",
+   "date": "2026-08-21",
+   "var": "TMAX",
+   "chosen": 32.76678466796875,
+   "rejected": 32.83169937133789,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "MSO",
+   "date": "2026-08-02",
+   "var": "TMAX",
+   "chosen": 31.966896057128906,
+   "rejected": 28.981163024902344,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-07-12",
+   "var": "TMAX",
+   "chosen": 26.629987716674805,
+   "rejected": 24.82479476928711,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "MSO",
+   "date": "2026-07-29",
+   "var": "PRCP",
+   "chosen": 34.841922760009766,
+   "rejected": 35.054443359375,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "MSO",
+   "date": "2026-09-28",
+   "var": "TMAX",
+   "chosen": 34.256744384765625,
+   "rejected": 33.67903137207031,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "CRP",
+   "date": "2026-08-05",
+   "var": "PRCP",
+   "chosen": 17.381338119506836,
+   "rejected": 16.598976135253906,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "FAI",
+   "date": "2026-07-28",
+   "var": "TMAX",
+   "chosen": 33.83432388305664,
+   "rejected": 33.39581298828125,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "FAI",
+   "date": "2026-07-23",
+   "var": "TMAX",
+   "chosen": 18.910999298095703,
+   "rejected": 22.039104461669922,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "CAR",
+   "date": "2026-07-23",
+   "var": "PRCP",
+   "chosen": 34.99925994873047,
+   "rejected": 33.840003967285156,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-08-01",
+   "var": "TMIN",
+   "chosen": 30.352750778198242,
+   "rejected": 31.376203536987305,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "CAR",
+   "date": "2026-08-18",
+   "var": "PRCP",
+   "chosen": 35.42760467529297,
+   "rejected": 28.156734466552734,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "CRP",
+   "date": "2026-09-16",
+   "var": "TMAX",
+   "chosen": 29.77356719970703,
+   "rejected": 27.803735733032227,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "CRP",
+   "date": "2026-07-17",
+   "var": "PRCP",
+   "chosen": 16.817415237426758,
+   "rejected": 17.232769012451172,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "FAI",
+   "date": "2026-09-04",
+   "var": "TMIN",
+   "chosen": 19.76239585876465,
+   "rejected": 16.738971710205078,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "CAR",
+   "date": "2026-07-29",
+   "var": "TMAX",
+   "chosen": 35.16099166870117,
+   "rejected": 34.721397399902344,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "CAR",
+   "date": "2026-07-09",
+   "var": "TMAX",
+   "chosen": 35.387264251708984,
+   "rejected": 36.42425537109375,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "OGG",
+   "date": "2026-09-09",
+   "var": "PRCP",
+   "chosen": 32.52517318725586,
+   "rejected": 26.858131408691406,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "=",
+   "site": "CRP",
+   "date": "2026-09-08",
+   "var": "PRCP",
+   "chosen": 30.761638641357422,
+   "rejected": 29.306224822998047,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "CRP",
+   "date": "2026-07-23",
+   "var": "PRCP",
+   "chosen": 26.265317916870117,
+   "rejected": 24.94298553466797,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "CAR",
+   "date": "2026-09-12",
+   "var": "PRCP",
+   "chosen": 34.22724914550781,
+   "rejected": 33.93109893798828,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "=",
+   "site": "CRP",
+   "date": "2026-08-02",
+   "var": "PRCP",
+   "chosen": 33.85624313354492,
+   "rejected": 33.594703674316406,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-09-21",
+   "var": "TMIN",
+   "chosen": 34.29039001464844,
+   "rejected": 34.10384750366211,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "OGG",
+   "date": "2026-08-02",
+   "var": "TMAX",
+   "chosen": 32.55750274658203,
+   "rejected": 27.925899505615234,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "OGG",
+   "date": "2026-07-04",
+   "var": "TMIN",
+   "chosen": 35.56869125366211,
+   "rejected": 35.11339569091797,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "FAI",
+   "date": "2026-08-31",
+   "var": "TMAX",
+   "chosen": 23.898820877075195,
+   "rejected": 25.269458770751953,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "MSO",
+   "date": "2026-09-19",
+   "var": "PRCP",
+   "chosen": 34.626068115234375,
+   "rejected": 33.36619186401367,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "V",
+   "site": "CAR",
+   "date": "2026-07-21",
+   "var": "PRCP",
+   "chosen": 27.25391960144043,
+   "rejected": 29.095129013061523,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F9",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-07-11",
+   "var": "PRCP",
+   "chosen": 33.469215393066406,
+   "rejected": 34.238243103027344,
+   "prefers_chosen": false
+  },
+  {
+   "family": "F10",
+   "kind": "V",
+   "site": "FAI",
+   "date": "2026-09-10",
+   "var": "TMAX",
+   "chosen": 31.11475372314453,
+   "rejected": 31.066532135009766,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F8",
+   "kind": "N",
+   "site": "CAR",
+   "date": "2026-09-04",
+   "var": "TMIN",
+   "chosen": 30.59602928161621,
+   "rejected": 30.16649627685547,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F9",
+   "kind": "N",
+   "site": "FAI",
+   "date": "2026-09-16",
+   "var": "PRCP",
+   "chosen": 33.0382080078125,
+   "rejected": 32.98760223388672,
+   "prefers_chosen": true
+  },
+  {
+   "family": "F10",
+   "kind": "N",
+   "site": "FAI",
+   "date": "2026-08-03",
+   "var": "TMAX",
+   "chosen": 26.294628143310547,
+   "rejected": 30.9564208984375,
+   "prefers_chosen": false
+  }
+ ]
+}

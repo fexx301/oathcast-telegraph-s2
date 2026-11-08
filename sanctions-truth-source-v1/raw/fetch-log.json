@@ -1,0 +1,38 @@
+{
+ "sdn.csv": {
+  "url": "https://sanctionslistservice.ofac.treas.gov/api/publicationpreview/exports/sdn.csv",
+  "captured_at": "2026-11-03T16:31:45Z",
+  "bytes": 5750799,
+  "last_modified": "Wed, 28 Oct 2026 14:03:09 GMT"
+ },
+ "alt.csv": {
+  "url": "https://sanctionslistservice.ofac.treas.gov/api/publicationpreview/exports/alt.csv",
+  "captured_at": "2026-11-03T16:31:51Z",
+  "bytes": 1064299,
+  "last_modified": "Wed, 28 Oct 2026 14:03:10 GMT"
+ },
+ "cons_prim.csv": {
+  "url": "https://sanctionslistservice.ofac.treas.gov/api/publicationpreview/exports/cons_prim.csv",
+  "captured_at": "2026-11-03T16:31:58Z",
+  "bytes": 268508,
+  "last_modified": "Wed, 28 Oct 2026 14:03:10 GMT"
+ },
+ "cons_alt.csv": {
+  "url": "https://sanctionslistservice.ofac.treas.gov/api/publicationpreview/exports/cons_alt.csv",
+  "captured_at": "2026-11-03T16:32:02Z",
+  "bytes": 69622,
+  "last_modified": "Wed, 28 Oct 2026 14:03:10 GMT"
+ },
+ "un.xml": {
+  "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+  "captured_at": "2026-11-03T16:32:09Z",
+  "bytes": 2177571,
+  "last_modified": "Mon, 02 Nov 2026 23:02:09 GMT"
+ },
+ "eu.csv": {
+  "url": "https://webgate.ec.europa.eu/fsd/fsf/public/files/csvFullSanctionsList_1_1/content?token=dG9rZW4tMjAxNw",
+  "captured_at": "2026-11-03T16:51:42Z",
+  "bytes": 25288456,
+  "last_modified": "Fri, 23 Oct 2026 15:10:14 GMT"
+ }
+}

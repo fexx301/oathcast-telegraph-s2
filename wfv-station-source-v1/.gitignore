@@ -1,0 +1,5 @@
+raw/*
+!raw/fetch-log.json
+__pycache__/
+aws/build/
+aws/fn.zip

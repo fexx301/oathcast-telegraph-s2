@@ -1,0 +1,46 @@
+version: '1'
+kind: miner
+id: 0
+slug: truth-sanctions-screen-official-lists-aws
+protocol: generic
+name: Sanctions screen over official OFAC, UN and EU lists
+description: >-
+  Free, public, no-key screening API. Screens a person, company, vessel or crypto wallet address against
+  the official OFAC SDN and Consolidated (non-SDN) lists, the UN Security Council consolidated list and the
+  EU consolidated financial sanctions list, including near-matches on spelling and transliteration.
+  Returns matched (true/false), the matching entries, the lists checked with their publication dates, and
+  the best match score. Operated by the contributor; built only from the official list files.
+base_url: https://ngrgakvwtxioa2kkdllvhn5pza0fxqcb.lambda-url.eu-north-1.on.aws
+auth:
+  type: none
+endpoints:
+  - path: /screen
+    external_path: /screen
+    method: GET
+    description: >-
+      Screen one name or wallet address against OFAC SDN, OFAC non-SDN, UN and EU sanctions lists.
+      USE THIS for SANCTIONS_SCREENING_MATCH_GENERAL. Send only the name or address, not the whole question.
+    intents:
+      - SANCTIONS_SCREENING_MATCH_GENERAL
+    params:
+      query:
+        required:
+          - name: name
+            type: string
+            intents:
+              - '*'
+            description: The person, company or vessel name, or the wallet address, to screen (1-256 characters).
+intent_mapping:
+  SANCTIONS_SCREENING_MATCH_GENERAL:
+    endpoint: /screen
+    input:
+      name: { from: name, how: "Only the name or wallet address; drop dates of birth, countries, IMO numbers and titles." }
+    output:
+      name: { path: name }
+      matched: { path: matched, how: "JSON boolean: true when any list entry matched at or above the threshold." }
+      matches: { path: "matches[].name" }
+      lists: { path: "lists[].list" }
+      match_score: { path: match_score }
+semantics:
+  supported_intents:
+    - SANCTIONS_SCREENING_MATCH_GENERAL

@@ -1,0 +1,3225 @@
+{
+"oracle": "telegraphprotocol/telegraph-wasm-baseline@992f2650cf99e3d35306a782cf5f39967a121796 (feature/v2-integration) wide_runtime/golden/hybrid.py comparator_core + wide_wasm/src/hybrid.rs",
+"computed_before_any_candidate_exists": true,
+"summary": {
+"agree": 667,
+"disagree": 109
+},
+"disagreeing_ids": [
+"saturation-000061",
+"saturation-000062",
+"saturation-000063",
+"saturation-000064",
+"saturation-000069",
+"saturation-000070",
+"saturation-000071",
+"saturation-000072",
+"saturation-000073",
+"saturation-000074",
+"saturation-000075",
+"saturation-000076",
+"saturation-000137",
+"saturation-000138",
+"saturation-000139",
+"saturation-000140",
+"saturation-000145",
+"saturation-000146",
+"saturation-000147",
+"saturation-000148",
+"saturation-000149",
+"saturation-000150",
+"saturation-000151",
+"saturation-000152",
+"saturation-000285",
+"saturation-000286",
+"saturation-000287",
+"saturation-000288",
+"saturation-000301",
+"saturation-000302",
+"saturation-000303",
+"saturation-000304",
+"saturation-000381",
+"saturation-000382",
+"saturation-000383",
+"saturation-000384",
+"saturation-000473",
+"saturation-000474",
+"saturation-000475",
+"saturation-000476",
+"saturation-000481",
+"saturation-000485",
+"saturation-000486",
+"saturation-000487",
+"saturation-000488",
+"saturation-000489",
+"saturation-000490",
+"saturation-000491",
+"saturation-000492",
+"saturation-000493",
+"saturation-000494",
+"saturation-000495",
+"saturation-000496",
+"saturation-000497",
+"saturation-000506",
+"saturation-000507",
+"saturation-000508",
+"saturation-000509",
+"saturation-000510",
+"saturation-000511",
+"saturation-000512",
+"saturation-000513",
+"saturation-000541",
+"saturation-000542",
+"saturation-000543",
+"saturation-000544",
+"saturation-000553",
+"saturation-000554",
+"saturation-000555",
+"saturation-000556",
+"saturation-000561",
+"saturation-000565",
+"saturation-000566",
+"saturation-000567",
+"saturation-000568",
+"saturation-000601",
+"saturation-000602",
+"saturation-000603",
+"saturation-000604",
+"saturation-000605",
+"saturation-000606",
+"saturation-000607",
+"saturation-000608",
+"saturation-000609",
+"saturation-000637",
+"saturation-000638",
+"saturation-000639",
+"saturation-000640",
+"saturation-000681",
+"saturation-000682",
+"saturation-000683",
+"saturation-000684",
+"saturation-000689",
+"saturation-000693",
+"saturation-000694",
+"saturation-000695",
+"saturation-000696",
+"saturation-000714",
+"saturation-000715",
+"saturation-000716",
+"saturation-000717",
+"saturation-000718",
+"saturation-000719",
+"saturation-000720",
+"saturation-000721",
+"saturation-000749",
+"saturation-000750",
+"saturation-000751",
+"saturation-000752"
+],
+"per_probe": {
+"saturation-000001": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000002": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000003": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000004": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000005": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000006": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000007": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000008": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000009": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000010": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000011": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000012": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000013": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000014": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000015": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000016": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000017": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000018": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000019": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000020": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000021": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000022": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000023": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000024": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000025": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000026": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000027": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000028": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000029": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000030": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000031": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000032": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000033": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000034": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000035": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000036": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000037": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000038": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000039": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000040": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000041": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000042": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000043": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000044": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000045": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000046": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000047": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000048": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000049": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000050": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000051": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000052": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000053": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000054": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000055": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000056": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000057": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000058": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000059": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000060": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000061": {
+"python_golden": 0,
+"rust_release_wrapping": -4611686018427387904
+},
+"saturation-000062": {
+"python_golden": 0,
+"rust_release_wrapping": -5000
+},
+"saturation-000063": {
+"python_golden": 0,
+"rust_release_wrapping": -5000
+},
+"saturation-000064": {
+"python_golden": 0,
+"rust_release_wrapping": -4999
+},
+"saturation-000065": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000066": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000067": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000068": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000069": {
+"python_golden": 0,
+"rust_release_wrapping": 10000
+},
+"saturation-000070": {
+"python_golden": 0,
+"rust_release_wrapping": 5000
+},
+"saturation-000071": {
+"python_golden": 0,
+"rust_release_wrapping": 5000
+},
+"saturation-000072": {
+"python_golden": 0,
+"rust_release_wrapping": 4999
+},
+"saturation-000073": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000074": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000075": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000076": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000077": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000078": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000079": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000080": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000081": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000082": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000083": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000084": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000085": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000086": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000087": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000088": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000089": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000090": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000091": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000092": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000093": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000094": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000095": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000096": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000097": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000098": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000099": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000100": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000101": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000102": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000103": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000104": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000105": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000106": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000107": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000108": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000109": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000110": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000111": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000112": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000113": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000114": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000115": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000116": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000117": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000118": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000119": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000120": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000121": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000122": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000123": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000124": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000125": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000126": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000127": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000128": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000129": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000130": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000131": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000132": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000133": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000134": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000135": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000136": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000137": {
+"python_golden": 0,
+"rust_release_wrapping": -4611686018427387904
+},
+"saturation-000138": {
+"python_golden": 0,
+"rust_release_wrapping": -5000
+},
+"saturation-000139": {
+"python_golden": 0,
+"rust_release_wrapping": -5000
+},
+"saturation-000140": {
+"python_golden": 0,
+"rust_release_wrapping": -4999
+},
+"saturation-000141": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000142": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000143": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000144": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000145": {
+"python_golden": 0,
+"rust_release_wrapping": 10000
+},
+"saturation-000146": {
+"python_golden": 0,
+"rust_release_wrapping": 5000
+},
+"saturation-000147": {
+"python_golden": 0,
+"rust_release_wrapping": 5000
+},
+"saturation-000148": {
+"python_golden": 0,
+"rust_release_wrapping": 4999
+},
+"saturation-000149": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000150": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000151": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000152": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000153": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000154": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000155": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000156": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000157": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000158": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000159": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000160": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000161": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000162": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000163": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000164": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000165": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000166": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000167": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000168": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000169": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000170": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000171": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000172": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000173": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000174": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000175": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000176": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000177": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000178": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000179": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000180": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000181": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000182": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000183": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000184": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000185": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000186": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000187": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000188": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000189": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000190": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000191": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000192": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000193": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000194": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000195": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000196": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000197": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000198": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000199": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000200": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000201": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000202": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000203": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000204": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000205": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000206": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000207": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000208": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000209": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000210": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000211": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000212": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000213": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000214": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000215": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000216": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000217": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000218": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000219": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000220": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000221": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000222": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000223": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000224": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000225": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000226": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000227": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000228": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000229": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000230": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000231": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000232": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000233": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000234": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000235": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000236": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000237": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000238": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000239": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000240": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000241": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000242": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000243": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000244": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000245": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000246": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000247": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000248": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000249": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000250": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000251": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000252": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000253": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000254": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000255": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000256": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000257": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000258": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000259": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000260": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000261": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000262": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000263": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000264": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000265": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000266": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000267": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000268": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000269": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000270": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000271": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000272": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000273": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000274": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000275": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000276": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000277": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000278": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000279": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000280": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000281": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000282": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000283": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000284": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000285": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000286": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000287": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000288": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000289": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000290": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000291": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000292": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000293": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000294": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000295": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000296": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000297": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000298": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000299": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000300": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000301": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000302": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000303": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000304": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000305": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000306": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000307": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000308": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000309": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000310": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000311": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000312": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000313": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000314": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000315": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000316": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000317": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000318": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000319": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000320": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000321": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000322": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000323": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000324": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000325": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000326": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000327": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000328": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000329": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000330": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000331": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000332": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000333": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000334": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000335": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000336": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000337": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000338": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000339": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000340": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000341": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000342": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000343": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000344": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000345": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000346": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000347": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000348": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000349": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000350": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000351": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000352": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000353": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000354": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000355": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000356": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000357": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000358": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000359": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000360": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000361": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000362": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000363": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000364": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000365": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000366": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000367": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000368": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000369": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000370": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000371": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000372": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000373": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000374": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000375": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000376": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000377": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000378": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000379": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000380": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000381": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000382": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000383": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000384": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000385": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000386": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000387": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000388": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000389": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000390": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000391": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000392": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000393": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000394": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000395": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000396": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000397": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000398": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000399": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000400": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000401": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000402": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000403": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000404": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000405": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000406": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000407": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000408": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000409": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000410": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000411": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000412": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000413": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000414": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000415": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000416": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000417": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000418": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000419": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000420": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000421": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000422": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000423": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000424": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000425": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000426": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000427": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000428": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000429": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000430": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000431": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000432": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000433": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000434": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000435": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000436": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000437": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000438": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000439": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000440": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000441": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000442": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000443": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000444": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000445": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000446": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000447": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000448": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000449": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000450": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000451": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000452": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000453": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000454": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000455": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000456": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000457": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000458": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000459": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000460": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000461": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000462": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000463": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000464": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000465": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000466": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000467": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000468": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000469": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000470": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000471": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000472": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000473": {
+"python_golden": 0,
+"rust_release_wrapping": -4611686018427387904
+},
+"saturation-000474": {
+"python_golden": 0,
+"rust_release_wrapping": -5000
+},
+"saturation-000475": {
+"python_golden": 0,
+"rust_release_wrapping": -5000
+},
+"saturation-000476": {
+"python_golden": 0,
+"rust_release_wrapping": -4999
+},
+"saturation-000477": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000478": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000479": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000480": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000481": {
+"python_golden": 0,
+"rust_release_wrapping": 50010000
+},
+"saturation-000482": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000483": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000484": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000485": {
+"python_golden": 1,
+"rust_release_wrapping": -1
+},
+"saturation-000486": {
+"python_golden": 1,
+"rust_release_wrapping": -1
+},
+"saturation-000487": {
+"python_golden": 1,
+"rust_release_wrapping": -1
+},
+"saturation-000488": {
+"python_golden": 1,
+"rust_release_wrapping": -1
+},
+"saturation-000489": {
+"python_golden": 0,
+"rust_release_wrapping": 5000
+},
+"saturation-000490": {
+"python_golden": 0,
+"rust_release_wrapping": 5000
+},
+"saturation-000491": {
+"python_golden": 0,
+"rust_release_wrapping": 5000
+},
+"saturation-000492": {
+"python_golden": 0,
+"rust_release_wrapping": 4999
+},
+"saturation-000493": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000494": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000495": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000496": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000497": {
+"python_golden": 0,
+"rust_release_wrapping": 10000
+},
+"saturation-000498": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000499": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000500": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000501": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000502": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000503": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000504": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000505": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000506": {
+"python_golden": 0,
+"rust_release_wrapping": 5000
+},
+"saturation-000507": {
+"python_golden": 0,
+"rust_release_wrapping": 5000
+},
+"saturation-000508": {
+"python_golden": 0,
+"rust_release_wrapping": 4999
+},
+"saturation-000509": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000510": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000511": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000512": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000513": {
+"python_golden": 0,
+"rust_release_wrapping": 10000
+},
+"saturation-000514": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000515": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000516": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000517": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000518": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000519": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000520": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000521": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000522": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000523": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000524": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000525": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000526": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000527": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000528": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000529": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000530": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000531": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000532": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000533": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000534": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000535": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000536": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000537": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000538": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000539": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000540": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000541": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000542": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000543": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000544": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000545": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000546": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000547": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000548": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000549": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000550": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000551": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000552": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000553": {
+"python_golden": 0,
+"rust_release_wrapping": -4611686018427387904
+},
+"saturation-000554": {
+"python_golden": 0,
+"rust_release_wrapping": -5000
+},
+"saturation-000555": {
+"python_golden": 0,
+"rust_release_wrapping": -5000
+},
+"saturation-000556": {
+"python_golden": 0,
+"rust_release_wrapping": -4999
+},
+"saturation-000557": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000558": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000559": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000560": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000561": {
+"python_golden": 0,
+"rust_release_wrapping": 50010000
+},
+"saturation-000562": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000563": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000564": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000565": {
+"python_golden": 1,
+"rust_release_wrapping": -1
+},
+"saturation-000566": {
+"python_golden": 1,
+"rust_release_wrapping": -1
+},
+"saturation-000567": {
+"python_golden": 1,
+"rust_release_wrapping": -1
+},
+"saturation-000568": {
+"python_golden": 1,
+"rust_release_wrapping": -1
+},
+"saturation-000569": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000570": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000571": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000572": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000573": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000574": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000575": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000576": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000577": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000578": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000579": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000580": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000581": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000582": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000583": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000584": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000585": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000586": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000587": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000588": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000589": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000590": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000591": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000592": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000593": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000594": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000595": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000596": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000597": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000598": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000599": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000600": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000601": {
+"python_golden": 0,
+"rust_release_wrapping": 5000
+},
+"saturation-000602": {
+"python_golden": 0,
+"rust_release_wrapping": 5000
+},
+"saturation-000603": {
+"python_golden": 0,
+"rust_release_wrapping": 5000
+},
+"saturation-000604": {
+"python_golden": 0,
+"rust_release_wrapping": 4999
+},
+"saturation-000605": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000606": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000607": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000608": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000609": {
+"python_golden": 0,
+"rust_release_wrapping": 10000
+},
+"saturation-000610": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000611": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000612": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000613": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000614": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000615": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000616": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000617": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000618": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000619": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000620": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000621": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000622": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000623": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000624": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000625": {
+"python_golden": 10000,
+"rust_release_wrapping": 10000
+},
+"saturation-000626": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000627": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000628": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000629": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000630": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000631": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000632": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000633": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000634": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000635": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000636": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000637": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000638": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000639": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000640": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000641": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000642": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000643": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000644": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000645": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000646": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000647": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000648": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000649": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000650": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000651": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000652": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000653": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000654": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000655": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000656": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000657": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000658": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000659": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000660": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000661": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000662": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000663": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000664": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000665": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000666": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000667": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000668": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000669": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000670": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000671": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000672": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000673": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000674": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000675": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000676": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000677": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000678": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000679": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000680": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000681": {
+"python_golden": 0,
+"rust_release_wrapping": -4611686018427387904
+},
+"saturation-000682": {
+"python_golden": 0,
+"rust_release_wrapping": -5000
+},
+"saturation-000683": {
+"python_golden": 0,
+"rust_release_wrapping": -5000
+},
+"saturation-000684": {
+"python_golden": 0,
+"rust_release_wrapping": -4999
+},
+"saturation-000685": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000686": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000687": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000688": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000689": {
+"python_golden": 0,
+"rust_release_wrapping": 50010000
+},
+"saturation-000690": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000691": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000692": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000693": {
+"python_golden": 1,
+"rust_release_wrapping": -1
+},
+"saturation-000694": {
+"python_golden": 1,
+"rust_release_wrapping": -1
+},
+"saturation-000695": {
+"python_golden": 1,
+"rust_release_wrapping": -1
+},
+"saturation-000696": {
+"python_golden": 1,
+"rust_release_wrapping": -1
+},
+"saturation-000697": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000698": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000699": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000700": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000701": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000702": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000703": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000704": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000705": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000706": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000707": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000708": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000709": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000710": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000711": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000712": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000713": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000714": {
+"python_golden": 0,
+"rust_release_wrapping": 5000
+},
+"saturation-000715": {
+"python_golden": 0,
+"rust_release_wrapping": 5000
+},
+"saturation-000716": {
+"python_golden": 0,
+"rust_release_wrapping": 4999
+},
+"saturation-000717": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000718": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000719": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000720": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000721": {
+"python_golden": 0,
+"rust_release_wrapping": 10000
+},
+"saturation-000722": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000723": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000724": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000725": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000726": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000727": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000728": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000729": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000730": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000731": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000732": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000733": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000734": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000735": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000736": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000737": {
+"python_golden": 10000,
+"rust_release_wrapping": 10000
+},
+"saturation-000738": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000739": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000740": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000741": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000742": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000743": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000744": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000745": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000746": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000747": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000748": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000749": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000750": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000751": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000752": {
+"python_golden": 0,
+"rust_release_wrapping": 1
+},
+"saturation-000753": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000754": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000755": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000756": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000757": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000758": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000759": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000760": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000761": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000762": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000763": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000764": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000765": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000766": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000767": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000768": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000769": {
+"python_golden": 0,
+"rust_release_wrapping": 0
+},
+"saturation-000770": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000771": {
+"python_golden": 5000,
+"rust_release_wrapping": 5000
+},
+"saturation-000772": {
+"python_golden": 4999,
+"rust_release_wrapping": 4999
+},
+"saturation-000773": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000774": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000775": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+},
+"saturation-000776": {
+"python_golden": 1,
+"rust_release_wrapping": 1
+}
+}
+}
