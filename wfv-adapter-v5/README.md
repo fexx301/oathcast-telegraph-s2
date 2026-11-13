@@ -44,3 +44,12 @@ It also selected its checkpoint by development accuracy. Per-family counts are i
 - A text-only scorer cannot tell a consistent, plausible fabricated observation from a real one.
 
 Training pairs and generators are withheld, so the evaluation pool's questions aren't exposed.
+
+## Node result (2026-11-13): rejected in the hidden round
+
+- **Registered** as reg 396. It passed the remote 15-pair check and the bit-exact confirmation.
+- **Hidden round:** win rate **63.3%** (19/30), below the 70% floor, so it lost. No module is canonical for the
+  Intent.
+- **What it shows:** 89% on our own contribution's format became 63% on the hidden pool, which is mostly other
+  contributors' rows. The adapter learned our format's checks better than it transferred to theirs.
+- **This was the final attempt;** the registration is being withdrawn.
