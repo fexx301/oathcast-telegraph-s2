@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "builder": "github.com/telegraphprotocol/telegraph-wasm-baseline/cmd/adapterbuild",
+  "builder_version": "adapterbuild/2",
+  "intent": "WEATHER_FORECAST_VERIFY",
+  "class": "judgment",
+  "abi": "lora-v1",
+  "foundation": {
+    "hash": "0a49b325304bb4cf292e683929689d0457966be264f60bfc94d0072b614bf8e6",
+    "version": "modernbert-base-lora16-v1"
+  },
+  "tokenizer_hash": "67bc76f8b9386efba1a761c1c8e5ad439fd0eaf1c2826e9dd1a205c7af4dc456",
+  "rank": 8,
+  "alpha": 32,
+  "target_modules": [
+    "Wi",
+    "Wo",
+    "Wqkv"
+  ],
+  "max_tokens": 512,
+  "tensors": 178,
+  "delta_bytes": 6761476,
+  "package": {
+    "file": "WEATHER_FORECAST_VERIFY.safetensors",
+    "sha256": "6d84f0dbb7181e01b894d08b5d38a05ab4301224c5863f85d608773654bcf285",
+    "bytes": 6776916
+  },
+  "keccak256": "0x7cbd03343edc870036c9a23acf9fe47ebf1dccbdd25f5130f81451098e90554d",
+  "verification": {
+    "stage1": true,
+    "loaded": true,
+    "score_hex": "0xc03eaa77",
+    "repeats": 2,
+    "seconds": "2.436",
+    "input": "default"
+  },
+  "built_at": "2026-11-13T17:36:55Z"
+}
