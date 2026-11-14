@@ -47,3 +47,10 @@ A LoRA adapter (rank 8) with a reward head on Telegraph's shared Foundation Mode
 - A text-only scorer can't detect a consistent, plausible fabricated observation.
 
 Per-kind counts are in `RESULT-v6-heldout.json`.
+
+## Node result (2026-11-13): first canonical module for WEATHER_FORECAST_VERIFY
+
+- **Status:** registration 408 passed the remote check and the bit-exact confirmation, then scored **70.00% (21/30)**
+  on the hidden round. It was promoted as the Intent's **first canonical** evaluator (`active`, champion).
+- **Margin:** none; this was exactly the floor on one 30-pair draw.
+- **Disclosure:** this adapter now ranks weather-verify miners, including my own miner 64174.
