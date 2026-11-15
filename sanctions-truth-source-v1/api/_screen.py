@@ -11,7 +11,14 @@ WALLET = re.compile(r"^(0x[0-9a-fA-F]{40}|T[1-9A-HJ-NP-Za-km-z]{33}|[13][1-9A-HJ
                     r"bc1[02-9ac-hj-np-z]{11,71}|[LM][1-9A-HJ-NP-Za-km-z]{26,33}|[1-9A-HJ-NP-Za-km-z]{32,44}|4[0-9A-Za-z]{94})$")
 
 
+# Cyrillic -> Latin (passport-style). Without it, Cyrillic names normalise to "" and can never match (pre-test 2026-11-15).
+CYR = dict(zip("абвгдеёжзийклмнопрстуфхцчшщъыьэюяіїєґў",
+               "a b v g d e e zh z i y k l m n o p r s t u f kh ts ch sh shch _ y _ e yu ya i yi ye g u".split()))
+CYR = {k: ("" if v == "_" else v) for k, v in CYR.items()}
+
+
 def norm(s):
+    s = "".join(CYR.get(c, CYR.get(c.lower(), c)) for c in s)
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().upper()
     return re.sub(r"[^A-Z0-9]+", " ", s).strip()
 

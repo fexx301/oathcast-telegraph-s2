@@ -8,6 +8,17 @@ Hosted on AWS Lambda (`telegraph-sanctions-screen`, eu-north-1, public Function 
 
 It returns the intent's response fields: `name`, `matched` (bool, scored), `matches`, `lists` (with publication and capture dates) and `match_score` (0–1).
 
+**Update 2026-11-15:**
+- **Every answer also carries a one-sentence `summary`** (match or no match, the listed name and list, the score, each
+  list's publication date) **and a `confidence`**. The same endpoint is now also registered as an OathCast miner for
+  `SANCTIONS_SCREENING_MATCH_GENERAL` (keyless; YAML at
+  `fexx301/oathcast@8cd6e0a/miners/candidates/oathcast-sanctions-s2.yaml`).
+- **Fixed: names in Cyrillic script never matched,** because normalising reduced them to an empty string. They are now
+  transliterated to Latin first. Found by a frozen 30-question pre-test (18/20 before the fix, 20/20 after on a new
+  seed). Other non-Latin scripts are still not transliterated.
+- `aws/check_handler.py` is a self-check for the summary and confidence. `aws/deploy.sh` packages the committed
+  `api/index.json.gz`, so on a live deployment run the refresher afterwards, or the lists go stale.
+
 **Lists** (in `raw/fetch-log.json`; raw files aren't committed):
 
 | List | Entries | Published |
