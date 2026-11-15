@@ -1,0 +1,6 @@
+wfv-material-v1/material.jsonl	n=300	longer=0.497	tfidf_to_prompt=0.783
+wfv-adapter-v6/poolfresh3/material.jsonl	n=300	longer=0.513	tfidf_to_prompt=0.767
+wfv-adapter-v6/data/test-mos-real.jsonl	n=240	longer=0.554	tfidf_to_prompt=0.617
+wfv-adapter-v6/data/test-mos.jsonl	n=240	longer=0.577	tfidf_to_prompt=0.558
+wfv-adapter-v6/data/test-render.jsonl	n=400	longer=0.564	tfidf_to_prompt=0.848
+wfv-adapter-v6/data/train.jsonl	n=4200	longer=0.535	tfidf_to_prompt=0.713
