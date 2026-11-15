@@ -32,28 +32,36 @@ same rows; that counts only strict wins (119/300). There are 60 equal-length pai
 
 ## Per family, material-v1 (uploaded rows)
 
-| Family | What the worse answer gets wrong | n | TF-IDF | longer |
-|---|---|---|---|---|
-| F1 | verdict flipped | 24 | 0.42 | 0.67 |
-| F2 | another day | 44 | 0.89 | 0.45 |
-| F3 | another station | 44 | 0.93 | 0.52 |
-| F4 | unit slip | 24 | 0.62 | **0.25** |
-| F5 | another variable (low for high) | 23 | 1.00 | **0.26** |
-| F6 | fill value (-999) read as data | 25 | 0.88 | 0.66 |
-| F7 | digit swap | 24 | 0.88 | **0.17** |
-| F8 | wrong arithmetic | 24 | 0.67 | 0.62 |
-| F9 | tolerance misread | 24 | 0.50 | **0.88** |
-| F10 | wrong window (three days) | 44 | 0.82 | 0.49 |
+| Family | What the worse answer gets wrong | n | TF-IDF | longer | worse answer misquotes the question (rows) |
+|---|---|---|---|---|---|
+| F1 | verdict flipped | 24 | 0.42 | 0.67 | 7/24 |
+| F2 | another day | 44 | 0.89 | 0.45 | 44/44 |
+| F3 | another station | 44 | 0.93 | 0.52 | 42/44 |
+| F4 | unit slip | 24 | 0.62 | **0.25** | 12/24 |
+| F5 | another variable (low for high) | 23 | 1.00 | **0.26** | 21/23 |
+| F6 | fill value (-999) read as data | 25 | 0.88 | 0.66 | 14/25 |
+| F7 | digit swap | 24 | 0.88 | **0.17** | **24/24** |
+| F8 | wrong arithmetic | 24 | 0.67 | 0.62 | 13/24 |
+| F9 | tolerance misread | 24 | 0.50 | **0.88** | 8/24 |
+| F10 | wrong window (three days) | 44 | 0.82 | 0.49 | 8/44 |
 
 ## Reading
 
-- **Prompt overlap is high, but mostly legitimately.** In F2, F3 and F5 the error *is* a mismatch with the question
-  (day, station, variable), so overlap with the prompt is a fair signal there. On the numerical families (F1, F8,
-  F9) it is 0.42–0.67, near chance. F6, F7 and F10 (0.82–0.88) also leak: the corrupted numbers and window wording
-  share fewer tokens with the prompt. That is a weakness of the material, not only of the judge.
+- **Prompt overlap is high, mostly for a legitimate reason** (corrected 2026-11-15; the first version called digit
+  swaps a leak). Where the worse answer misquotes something the question states, matching the question *is* the skill:
+  - wrong day (F2), station (F3) and variable (F5);
+  - **digit swap (F7)**: in all 24 rows, the swapped number is the question's own forecast, restated wrongly.
+
+  The last column counts rows where the text the worse answer changed appears in the question (a token check, so
+  approximate).
+- **Real leaks:** fill value (F6, 0.88) and wrong window (F10, 0.82). There the judge's win isn't explained by matching
+  the question: rare tokens such as `-999` and the window wording shift the overlap. On verdict, tolerance and
+  arithmetic pairs (F1, F9, F8) the judge is 0.42–0.67, near chance.
 - **Length is balanced overall (0.497) but not within families (0.17–0.88).** The verdict phrases differ in length
   ("verified." vs "did not verify."), and within a family the correct verdict leans one way. A judge that could
   identify the family from the text could exploit it. Overall balance hid this, which is the same lesson as
   reporting numerical families separately.
+- **Scope:** this covers the 300 material rows. We have 301 eligible rows in the pool; the 301st is not in this audit
+  and is not identified here.
 - **Not fixed.** The rows are already in the pool; this is reported as a limit. A future material version should
   balance the verdict direction within every family, and should check judges per family before upload.
