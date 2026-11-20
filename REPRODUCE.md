@@ -5,6 +5,23 @@ free and uses public, keyless data. It takes about 20 minutes.
 
 Disclosure: this is a hackathon entry. I'm competing in Telegraph Hackathon Season II, which has prizes.
 
+## Words used here, in plain English
+
+- **Telegraph:** a network that sells answers. An app pays a little per question, and a **miner** (a service that
+  answers one kind of question, called an **Intent**) replies.
+- **Evaluator:** something that judges whether miners' answers are right, so the network can rank them. That's what
+  this repo is about.
+- **Truth source:** a public, trusted place to look up the correct answer (for example, a weather station's record).
+- **Comparator:** a tiny program that decides whether a miner's number is close enough to the true number.
+- **Adapter:** a small trained add-on to Telegraph's shared AI model. It reads two answers to the same question and
+  scores which one is better.
+- **Preference pair:** one question with a better and a worse answer, used to train and test adapters.
+- **Canonical:** the scorer the network currently uses for an Intent. A new one replaces it only by doing better on
+  hidden test pairs.
+- **Diamond:** Telegraph's main smart contract on the Ethereum Sepolia test network, where registrations are recorded.
+- **Hash (sha256, keccak256):** a fingerprint of a file. The same file always gives the same fingerprint, so you can
+  check that what's published is exactly what was registered.
+
 ## What you need
 
 - A terminal with `curl` and Python 3 (standard library is enough for steps 1, 3 and 4).
