@@ -6,6 +6,8 @@ Evaluation and serving work for [Telegraph](https://telegraphprotocol.com) Hacka
 
 The miner itself lives in [fexx301/oathcast](https://github.com/fexx301/oathcast). This repo holds the evaluation side: a comparator module, truth sources, quality tests, and the experiments that didn't ship.
 
+**New here? Start with [REPRODUCE.md](REPRODUCE.md):** a 20-minute, no-wallet walkthrough that checks every claim below.
+
 ## What's here
 
 | Folder | Intent | What it is | Result |
