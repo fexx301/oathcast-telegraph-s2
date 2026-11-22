@@ -136,7 +136,6 @@ The node was reset around 16–17 Nov 2026 and no longer lists pre-reset registr
   wrong-day one).
 - **Our evaluation material** (preference pairs) isn't published, because part of the pool is a hidden test set.
   Only aggregate checks are here.
-- **The macro comparator** was registered as reg 223 on the old Diamond. On the new Diamond (reg 40, 19 Nov) the
-  node's executor check rejected it, because our hosted endpoint refused the node's public test pair (it expected an
-  older request shape). The comparator test in step 2 is unaffected: it checks the WASM itself. Under investigation,
-  22 Nov.
+- **The macro comparator** isn't a live scorer. Telegraph uses one shared comparator for deterministic checks, so
+  community comparators aren't registered (the team, 22 Nov). Step 2 checks the WASM itself against the kit's
+  reference, which still holds.
