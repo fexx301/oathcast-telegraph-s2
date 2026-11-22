@@ -34,12 +34,28 @@ LEADING = re.compile(r"^\s*((the )?(vessel|ship|tanker|mv|m/v|company|entity|ind
 
 
 def clean_query(q):
-    """Strip details a question may carry around the name: bracketed text, comma parts with digits or labels
+    """Strip details a question may carry around the name: bracketed text, appended dates or labelled fields,
     (DOB, IMO, ...), a trailing one-word part (country) when two or more name words remain, leading descriptors."""
     q = re.sub(r"[(\[].*?[)\]]", " ", q)
     parts = [p.strip() for p in re.split(r"[,;]", q) if p.strip()]
-    parts = [p for p in parts if not re.search(r"\d", p) and not LABELS.match(p)] or parts[:1]
-    if len(parts) > 1 and len(parts[-1].split()) == 1 and len(" ".join(parts[:-1]).split()) >= 2:
+    # Subjects can contain digits (vessels and company names). Never discard
+    # the subject as if it were an appended DOB/IMO field.
+    parts = parts[:1] + [p for p in parts[1:] if not LABELS.match(p) and not re.fullmatch(r"[\d\s./-]+", p)]
+    # A full name first ("Francesco Commisso, Siderno, Italy"; "Gold Global Company, Sidon, Lebanon"): the rest is
+    # place detail. Dropping only the last word kept "Siderno" and pushed real matches under the threshold
+    # (frontier test, 2026-11-22). A one-word first part is a surname-first name or a short form ("COMMISSO,
+    # Francesco"; "VVB, PAO"), so it keeps its second part.
+    if not parts:
+        return ""
+    first = LEADING.sub("", parts[0])
+    # OFAC style "AL ASSAD, Bashar": a capitalised surname (no digits, unlike a vessel such as "HORMUZ 2"), then a given name.
+    surname_first = first.isupper() and not re.search(r"\d", first) and len(parts) > 1 and not parts[1].isupper()
+    if len(parts) > 1 and len(first.split()) >= 2 and not surname_first:
+        # Drop place-like parts (letters only, up to three words: "Siderno", "Italy"); keep ones like "Unit 2".
+        parts = parts[:1] + [p for p in parts[1:] if re.search(r"\d", p) or len(p.split()) > 3]
+    elif len(parts) > 2:
+        parts = parts[:2]
+    if len(parts) > 1 and not surname_first and len(parts[-1].split()) == 1 and len(" ".join(parts[:-1]).split()) >= 2:
         parts = parts[:-1]
     return LEADING.sub("", ", ".join(parts))
 
@@ -65,6 +81,20 @@ def load():
     return _idx
 
 
+# Words that never identify an organisation on their own: legal forms and generic business words. A non-individual
+# candidate below NEAR_EXACT must share at least one other word with the query (tester report, 2026-11-18: "VTB Bank"
+# also listed "VVB, PAO" at 0.96 because "Public Joint-Stock Company" inflated the score).
+GENERIC = FORMS | set("""PUBLIC JOINT STOCK OPEN CLOSED LIABILITY LIMITED BANK GROUP INTERNATIONAL TRADING TRADE
+HOLDING HOLDINGS INDUSTRIES INDUSTRY ENTERPRISE ENTERPRISES SERVICES SHIPPING COMMERCIAL NATIONAL GENERAL INVESTMENT
+INVESTMENTS DEVELOPMENT ENGINEERING TECHNOLOGY TECHNOLOGIES MANAGEMENT CAPITAL FINANCE FINANCIAL GLOBAL OIL GAS
+ENERGY PUBLICHNOE AKTSIONERNOE OBSHCHESTVO OTKRYTOE ZAKRYTOE NEPUBLICHNOE OGRANICHENNOY OTVETSTVENNOSTYU""".split())
+NEAR_EXACT = 0.99
+
+
+def distinctive(k):
+    return {t for t in k.split() if t not in GENERIC}
+
+
 def score(a, b):
     return difflib.SequenceMatcher(None, a, b, autojunk=False).ratio()
 
@@ -75,14 +105,19 @@ def screen(q, exclude_lists=(), threshold=THRESHOLD, skip_name=None):  # skip_na
     out = {"name": q, "matched": False, "match_score": 0.0, "matches": [],
            "lists": [{"list": l, **meta} for l, meta in d["lists"].items() if l not in exclude_lists]}
     # A wallet may arrive bare or inside text ("ETH:0x…", "wallet 1Lrx…").
-    wal = [t for t in re.split(r"[\s,;:()\[\]'\"]+", q) if WALLET.match(t)]
+    # Validate the entire token after removing sentence punctuation: malformed
+    # or overlong addresses must not match a valid prefix.
+    tokens = [t.strip(".?!“”‘’") for t in re.split(r"[\s,;:()\[\]'\"]+", q)]
+    # The official files contain additional chains/formats beyond the syntax
+    # recognizer. An exact indexed identifier must never be lost to that filter.
+    wal = [t for t in tokens if WALLET.fullmatch(t) or wallet_key(t) in d["wallets"]]
     for t in wal:
         e = d["wallets"].get(wallet_key(t))
         if e is not None and d["entries"][e]["list"] not in exclude_lists:
             out.update(matched=True, match_score=1.0, query_type="wallet",
                        matches=[{**d["entries"][e], "matched_on": "wallet address", "score": 1.0}])
             return out
-    if wal and len(wal) == len(q.split()):
+    if wal:
         out["query_type"] = "wallet"
         return out
     keys = {x for x in (key(q), key(clean_query(q))) if x}
@@ -105,8 +140,20 @@ def screen(q, exclude_lists=(), threshold=THRESHOLD, skip_name=None):  # skip_na
             best[e] = (s, i)
     ranked = sorted(best.items(), key=lambda x: -x[1][0])[:5]
     out["query_type"] = "name"
+    qd = set().union(*(distinctive(k) for k in keys))
+
+    def keep(e, s, i):
+        if s < threshold:
+            return False
+        if s >= NEAR_EXACT or d["entries"][e].get("type") == "individual":
+            return True
+        return bool(qd & distinctive(d["names"][i][0]))
     out["matches"] = [{**d["entries"][e], "matched_on": d["names"][i][2], "score": round(s, 6)}
-                      for e, (s, i) in ranked if s >= threshold]
+                      for e, (s, i) in ranked if keep(e, s, i)]
+    if ranked and not out["matches"]:  # tester report: say which listed name was closest
+        e, (s, i) = ranked[0]
+        out["closest"] = {"name": d["entries"][e]["name"], "matched_on": d["names"][i][2], "list": d["entries"][e]["list"],
+                          "score": round(s, 6)}
     out["match_score"] = round(ranked[0][1][0], 6) if ranked else 0.0
     out["matched"] = bool(out["matches"])
     return out

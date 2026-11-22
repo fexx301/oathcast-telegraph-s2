@@ -1,0 +1,30 @@
+# Run B (web search on, by instruction), fresh Astra session, model GPT-6.2-ASTRA, pasted back by the user on 2026-11-22.
+B1. Citigold Corporation Limited holds ML 10208 (Brilliant Central) over the Brilliant Lode mine at Charters Towers. The lease expires on 31 December 2035. Queensland mining lease register (https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Economy/CurrentQldResourceAuthorities/MapServer/120/1411)
+
+B2. ML 5623 covers the mapped site of the old Mount Morgan mine. Heritage Minerals Pty Ltd holds the lease. As of 22 November 2026, the register shows Granted, with the sub-status Renewal Lodged. Queensland mining lease register (https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Economy/CurrentQldResourceAuthorities/MapServer/120/1325)
+
+B3. EPM 28416 (Gympie Gold Project) covers the Gympie gold mine site. New Gympie Gold Pty Ltd holds the granted exploration permit. Queensland exploration permit register (https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Economy/CurrentQldResourceAuthorities/MapServer/40/1375)
+
+B4. Yes. The Gudjala People hold non-exclusive native title on land within 250 metres of the mapped Brilliant Lode mine point under determination QCD2014/006. The Tribunal shows no determination outcome at the mine point itself. National Native Title Register (https://api.nntt.gov.au/api/Attachments/searchRegApps/NativeTitleRegisters/NNTR%20Extracts/QCD2014_006/NNTRExtract_QCD2014_006.pdf) · Tribunal map query (https://services2.arcgis.com/rzk7fNEt0xoEp3cX/arcgis/rest/services/NNTT_Custodial_AGOL/FeatureServer/5/query?geometry=146.267492,-20.079572&geometryType=esriGeometryPoint&inSR=4283&distance=250&units=esriSRUnit_Meter&outFields=Tribunal_ID,Name,Determined_Outcome&returnGeometry=false&f=pjson)
+
+B5. Yes. On 17 June 2024, the Federal Court recognised non-exclusive native title for the Kabi Kabi People under determination QCD2024/002. The Tribunal maps this outcome within 250 metres of the Gympie mine point and shows no determination outcome at the point itself. National Native Title Register (https://api.nntt.gov.au/api/Attachments/searchRegApps/NativeTitleRegisters/NNTR%20Extracts/QCD2024_002/NNTRExtract_QCD2024_002.pdf) · Tribunal map query (https://services2.arcgis.com/rzk7fNEt0xoEp3cX/arcgis/rest/services/NNTT_Custodial_AGOL/FeatureServer/5/query?geometry=152.687558,-26.215493&geometryType=esriGeometryPoint&inSR=4283&distance=250&units=esriSRUnit_Meter&outFields=Tribunal_ID,Name,Determined_Outcome&returnGeometry=false&f=pjson)
+
+B6. The Geological Survey of Queensland (GSQ) records estimated production of 51,482.73 kg of fine gold at Brilliant Lode from 1879 through 1917. The entry is in the MINOCC Production table for site 38722. GSQ mineral occurrence database (https://www.data.qld.gov.au/dataset/ds000004)
+
+B7. GSQ assigns Mount Morgan the gold size class Giant, meaning more than 150 tonnes. Its survey site number is 494270. GSQ Mount Morgan site record (https://spatial-gis.information.qld.gov.au/arcgis/rest/services/GeoscientificInformation/MiningResources/MapServer/16/12692)
+
+B8. Mining at Gympie last took place in 2008. GSQ’s MineHist entry for site 40172 records that mining ceased in December 2008. GSQ mineral occurrence database (https://www.data.qld.gov.au/dataset/ds000004) · Operator’s closure report, p. 3 (https://announcements.asx.com.au/asxpdf/20090317/pdf/31gmqjwdklj5xw.pdf)
+
+B9. Yes. The mapped Gympie mine point falls inside the heritage-listed No. 1 Scottish Gympie Mine and Battery, Queensland Heritage Register place 600536. Queensland Heritage Register boundary record (https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Boundaries/AdminBoundariesFramework/MapServer/78/1467)
+
+B10. The Queensland Government reports that Mount Morgan produced about 250 tonnes of gold over an operating period from 1882 to November 1990. Queensland Government, Mount Morgan remediation project (https://www.qld.gov.au/environment/land/management/abandoned-mines/remediation-projects/mount-morgan)
+
+B11. Yes. OFAC listed Mojtaba Arabnejad, the Iranian national born 4 June 1984, on 20 November 2026. His entry carries both SDGT (Specially Designated Global Terrorist) and IFSR (Iranian Financial Sanctions Regulations). OFAC designation notice (https://ofac.treasury.gov/recent-actions/20261120)
+
+B12. Yes. OFAC listed Francesco Commisso, born 3 October 1956 in Siderno, Italy, on 19 November 2026 under ILLICIT-DRUGS-EO14059, the illicit-drugs sanctions program under Executive Order 14059. OFAC designation notice (https://ofac.treasury.gov/recent-actions/20261119)
+
+B13. Yes. OFAC listed Gold Global Company of Sidon, Lebanon, on 18 November 2026 under SDGT. Its Lebanese commercial registry number is 5009969. OFAC designation notice (https://ofac.treasury.gov/recent-actions/20261118)
+
+B14. Yes. OFAC listed Hassan Khechen on 18 November 2026 under SDGT. The entry confirms his birth date of 19 July 1986 and Lebanese nationality. It gives no birthplace. OFAC designation notice (https://ofac.treasury.gov/recent-actions/20261118)
+
+B15. No matching listing found. As of 22 November 2026, I found no entry for Arabnejad Trading LLC of Dubai in OFAC’s Specially Designated Nationals and Blocked Persons List or its consolidated non-SDN lists, including published aliases. OFAC Sanctions List Service (https://ofac.treasury.gov/sanctions-list-service)

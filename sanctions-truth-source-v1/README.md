@@ -31,7 +31,7 @@ It returns the intent's response fields: `name`, `matched` (bool, scored), `matc
 **Matching:**
 - **Wallets:** exact address match (`0x` addresses are compared case-insensitively).
 - **Names:** accents and punctuation stripped, legal-form words dropped, tokens sorted, then a `difflib` ratio against every listed name and alias that shares a token. `matched` is true at score ≥ **0.84**.
-- **Question-shaped input:** a wallet is found anywhere in the text (for example `ETH:0x…`). Bracketed text, comma parts with digits or labels (DOB, IMO), a trailing one-word country and leading descriptors ("vessel", "Mr") are stripped. The score is the better of the raw and cleaned name. Checked in `calibrate.py`; the calibration numbers barely moved (139→140/189 before vs after).
+- **Question-shaped input:** a wallet is found anywhere in the text (for example `ETH:0x…`). Bracketed text, comma parts with digits or labels (DOB, IMO), place-like parts after a full name ("Francesco Commisso, Siderno, Italy" → "Francesco Commisso"; added 22 Nov after a frontier-model test caught two misses) and leading descriptors ("vessel", "Mr") are stripped. Surname-first names keep their given name ("AL ASSAD, Bashar"). The score is the better of the raw and cleaned name. Checked in `calibrate.py`; the calibration numbers barely moved (139→140/189 before vs after).
 
 **Calibration** (`calibrate.py` → `calibration.json`; the threshold rule was fixed before the run):
 - **Positives:** leave-one-out spelling variants of OFAC SDN individuals. An alias that shares a token with the primary name is screened with that one spelling hidden.
@@ -40,7 +40,7 @@ It returns the intent's response fields: `name`, `matched` (bool, scored), `matc
 
 | Held-out test half | Result |
 |---|---|
-| Spelling variants matched | 140/189 (74%); the right person in 112 |
+| Spelling variants matched | 139/189 (74%); the right person in 112 (140 before the 22 Nov parsing fix) |
 | Clean look-alikes flagged | 3/40 (8%) |
 | Exact listed names, aliases, vessels and wallets from material v1 | 126/126 |
 

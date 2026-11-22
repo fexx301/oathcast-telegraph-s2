@@ -1,0 +1,143 @@
+{
+ "38722": {
+  "land_receipt": "0x8ff872ee46fe3509a1615a3d84d86e595ac9cf8e7cf9551bcebd43acb62436f4",
+  "tenure_over_site": [
+   [
+    "EPM 15964 (permitid 102599)",
+    [
+     "CITIGOLD CORPORATION LIMITED"
+    ],
+    "Granted",
+    "Renewal Lodged",
+    "2025-05-01"
+   ],
+   [
+    "ML 10208 (permitid 108574)",
+    [
+     "CITIGOLD CORPORATION LIMITED"
+    ],
+    "Granted",
+    "None",
+    "2035-12-31"
+   ]
+  ],
+  "native_title": [
+   [
+    "QI2014/031 (OBJECTID 2325)",
+    "Gudjala People and Local Government ILUA",
+    null,
+    null,
+    "contains_site_point"
+   ],
+   [
+    "QI2013/082 (OBJECTID 2289)",
+    "Gudjala People and Ergon Energy ILUA",
+    null,
+    null,
+    "contains_site_point"
+   ],
+   [
+    "QCD2016/014 (OBJECTID 3352)",
+    "Gudjala People #2",
+    "Native title exists (non-exclusive)",
+    "2016-12-13",
+    "within_buffer"
+   ],
+   [
+    "QCD2016/013 (OBJECTID 3276)",
+    "Gudjala People",
+    "Native title exists (non-exclusive)",
+    "2016-12-13",
+    "within_buffer"
+   ]
+  ],
+  "heritage_over_site": [],
+  "history_receipt": "0xec8c20a65b47ec16a63da49c89306fd596bbd3366bf455ab50b5b130ee18e85c",
+  "survey_answer": "Brilliant Lode (Geological Survey of Queensland site 38722) is recorded as an abandoned mine on the Charters Towers 1:100,000 sheet (1.1 km ese of charters towers), at -20.0796, 146.2675, located to w"
+ },
+ "494270": {
+  "land_receipt": "0x588215575541468fb88c6866709e935fccc49da68830e6667ad1b51b3840dd7c",
+  "tenure_over_site": [
+   [
+    "ML 5623 (permitid 108197)",
+    [
+     "HERITAGE MINERALS PTY LTD"
+    ],
+    "Granted",
+    "Renewal Lodged",
+    "2025-08-31"
+   ]
+  ],
+  "native_title": [
+   [
+    "QCD2016/006 (OBJECTID 4198)",
+    "Darumbal People",
+    "Native title exists (non-exclusive)",
+    "2016-06-21",
+    "within_buffer"
+   ],
+   [
+    "QC2012/009 (OBJECTID 394)",
+    "Gaangalu Nation People",
+    null,
+    null,
+    "contains_site_point"
+   ],
+   [
+    "QI2016/006 (OBJECTID 2477)",
+    "Ergon Energy and Darumbal People ILUA",
+    null,
+    null,
+    "within_buffer"
+   ],
+   [
+    "QI2016/037 (OBJECTID 2506)",
+    "Darumbal People Tenure Resolution ILUA",
+    null,
+    null,
+    "within_buffer"
+   ]
+  ],
+  "heritage_over_site": [
+   null,
+   null
+  ],
+  "history_receipt": "0xacb36bc6317a21f3efa7334e4071e9d6a0be96686b8b728a0eb0779679623fa0",
+  "survey_answer": "Mount Morgan is an abandoned mine located 36 km south-west of Rockhampton and 90 km west-north-west of Gladstone, with coordinates -23.6370, 150.3692. The Geological Survey of Queensland classifies it"
+ },
+ "40172": {
+  "land_receipt": "0xe08ce09c93355c13d9c4d526896c82a77d8a288c23fbdb4ec7873c143fab0429",
+  "tenure_over_site": [
+   [
+    "EPM 28416 (permitid 223919)",
+    [
+     "NEW GYMPIE GOLD PTY LTD."
+    ],
+    "Granted",
+    "None",
+    "2028-11-18"
+   ]
+  ],
+  "native_title": [
+   [
+    "QCD2024/002 (OBJECTID 4094)",
+    "Kabi Kabi First Nation Traditional Owners Native Title Claim Group",
+    "Native title exists (non-exclusive)",
+    "2024-06-17",
+    "within_buffer"
+   ],
+   [
+    "QI2024/006 (OBJECTID 2677)",
+    "Kabi Kabi People Tenure Resolution ILUA",
+    null,
+    null,
+    "within_buffer"
+   ]
+  ],
+  "heritage_over_site": [
+   "No. 1 Scottish Gympie Mine and Battery"
+  ],
+  "history_receipt": "0x98d641918be4223e2f1789e077eb54c9451522dec317ed2c8715cf26552a757e",
+  "survey_answer": "Gympie (Geological Survey of Queensland site 40172) is recorded as an abandoned mine on the Gympie 1:100,000 sheet (3.8 km se of gympie p.o., 130km nnw of brisbane.), at -26.2155, 152.6876, located to"
+ }
+}

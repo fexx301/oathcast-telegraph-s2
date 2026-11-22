@@ -1,0 +1,31 @@
+# Run A (no tools, by instruction), fresh Astra session, pasted back by the user on 2026-11-22.
+# Model: GPT-6.2-ASTRA (as shown in the app; recorded by the user)
+A1. I don’t know who currently holds the Brilliant Lode mining lease or when it expires.
+
+A2. I don’t know which mining lease currently covers the old Mount Morgan mine, who holds it, or its status.
+
+A3. I don’t know which exploration permit currently covers the Gympie gold mine site or who holds it.
+
+A4. There are native title determinations for the Gudjala People in the Charters Towers region. I’m unsure whether one covers the area around Brilliant Lode or whether the rights there are exclusive.
+
+A5. On 17 June 2024, the Federal Court recognised non-exclusive native title rights for the Kabi Kabi People over parts of the broader Gympie region. I’m unsure whether the determination covers the mine site itself.
+
+A6. I don’t know how much gold the Geological Survey of Queensland records for Brilliant Lode or the last year its figure covers.
+
+A7. I don’t know the Survey’s gold size class or site number for Mount Morgan.
+
+A8. I don’t know the last year the Survey records mining at the Gympie site.
+
+A9. No. 1 Scottish Gympie Mine and Battery at Monkland is on the Queensland Heritage Register. I’m unsure whether it coincides with the mine site in your question.
+
+A10. I recall roughly 250 tonnes of gold over Mount Morgan’s 1882–1990 operating life. I’m unsure of the exact total and production period the Queensland Government reports.
+
+A11. I don’t know whether OFAC currently lists Mojtaba Arabnejad, born 4 June 1984, or which program would apply.
+
+A12. I don’t know whether the US Treasury currently sanctions Francesco Commisso, born 3 October 1956, or which program would apply.
+
+A13. I don’t know whether OFAC currently lists Gold Global Company of Sidon, Lebanon.
+
+A14. I don’t know whether OFAC currently lists Hassan Khechen, born 19 July 1986.
+
+A15. I don’t know whether OFAC currently lists Arabnejad Trading LLC of Dubai.
