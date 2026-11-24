@@ -52,13 +52,18 @@ curl -s 'https://wdauaeyvk7mcfzuxewk3mqkhvu0klqwo.lambda-url.eu-north-1.on.aws/v
 curl -s 'https://ngrgakvwtxioa2kkdllvhn5pza0fxqcb.lambda-url.eu-north-1.on.aws/screen?name=Lazarus%20Group'
 # -> "matched": true, "LAZARUS GROUP" on OFAC SDN, score 1.00, plus each list's publication date
 
+# SSL (SSL_VERIFICATION_CERT): a live TLS handshake with hostname verification; private addresses refused
+curl -s 'https://rxmhjv4nbzdeshevacrsvteaqy0csphi.lambda-url.eu-north-1.on.aws/check?host=expired.badssl.com'
+# -> "valid": false, "reason": "certificate rejected: certificate has expired"
+
 # Macro (MACRO_ECONOMIC_INDICATOR): the World Bank WDI API, called directly (no wrapper of ours)
 curl -s 'https://api.worldbank.org/v2/country/USA/indicator/SL.UEM.TOTL.ZS?date=2019&format=json'
 # -> "value": 3.669 (US unemployment, 2019, modelled ILO estimate)
 ```
 
 What each source does and its measured accuracy are in [wfv-station-source-v1](wfv-station-source-v1/),
-[sanctions-truth-source-v1](sanctions-truth-source-v1/) and [macro-truth-source-v1](macro-truth-source-v1/).
+[sanctions-truth-source-v1](sanctions-truth-source-v1/), [ssl-truth-source-v1](ssl-truth-source-v1/) and
+[macro-truth-source-v1](macro-truth-source-v1/).
 
 ## 2. Run the comparator test
 

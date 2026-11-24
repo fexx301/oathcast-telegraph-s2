@@ -1,0 +1,31 @@
+{
+ "pairs": 150,
+ "kinds": {
+  "K2": 21,
+  "K1": 21,
+  "K4": 22,
+  "K3": 21,
+  "K6": 21,
+  "K5": 22,
+  "K7": 22
+ },
+ "built_at": "2026-11-22T13:00:00+00:00",
+ "kit_check_data": {
+  "result": "PASS",
+  "unique_negatives": "100.0%",
+  "largest_single_neg": "0.7%",
+  "length_shortcut": "58.0%",
+  "held_out_leak": "0.0%",
+  "surface_probe": "54.5%"
+ },
+ "shortcut_judges": {
+  "longer_overall": 0.42,
+  "bar": "0.40-0.60",
+  "pass": true,
+  "tfidf_to_prompt_overall": 0.867,
+  "note": "descriptive; per-kind in RESULT.md"
+ },
+ "near_duplicates_at_0.96": 0,
+ "spot_check": "20/20",
+ "position_check": "not applicable: the JSONL format has no answer order (chosen and rejected are named fields)"
+}

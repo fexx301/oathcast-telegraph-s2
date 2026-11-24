@@ -1,0 +1,47 @@
+version: '1'
+kind: miner
+id: 0
+slug: truth-ssl-certificate-check-handshake
+protocol: generic
+name: TLS certificate check by live handshake
+description: >-
+  Free, public, no-key check of whether a hostname's TLS certificate is currently valid and trusted. Performs a real
+  TLS handshake on port 443 with hostname verification against a pinned trust store (Mozilla's root list via
+  certifi). Returns valid (true/false) with the reason (expired, self-signed, untrusted root, hostname mismatch, no
+  handshake), the expiry date, days remaining, the issuer and the certificate's DNS names. Revocation (OCSP/CRL) is
+  not checked. Hosts resolving to private or reserved addresses are refused. Operated by the contributor.
+base_url: https://rxmhjv4nbzdeshevacrsvteaqy0csphi.lambda-url.eu-north-1.on.aws
+auth:
+  type: none
+endpoints:
+  - path: /check
+    external_path: /check
+    method: GET
+    description: >-
+      Check one hostname's TLS certificate. USE THIS for SSL_VERIFICATION_CERT. Send only the hostname (for example
+      example.com), not the whole question.
+    intents:
+      - SSL_VERIFICATION_CERT
+    params:
+      query:
+        required:
+          - name: host
+            type: string
+            intents:
+              - '*'
+            description: The hostname to check, e.g. example.com (a URL or a question containing one also works).
+intent_mapping:
+  SSL_VERIFICATION_CERT:
+    endpoint: /check
+    input:
+      host: { from: host, how: "Only the hostname; drop the scheme, path and question words." }
+    output:
+      host: { path: host }
+      valid: { path: valid, how: "JSON boolean: true when the certificate is unexpired, chains to a trusted root and matches the hostname." }
+      reason: { path: reason }
+      not_after: { path: not_after }
+      days_remaining: { path: days_remaining }
+      issuer: { path: issuer }
+semantics:
+  supported_intents:
+    - SSL_VERIFICATION_CERT
